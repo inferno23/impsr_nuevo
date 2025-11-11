@@ -1,0 +1,101 @@
+<?php
+session_start();
+include '../conexion/conectar.inc';
+include 'funciones.inc';
+
+//
+//
+function utf8_converter($array)
+{
+	array_walk_recursive($array, function(&$item, $key){
+		if(!mb_detect_encoding($item, 'utf-8', true)){
+			$item = utf8_encode($item);
+			//$item = preg_replace(';', ',', $item);
+		}
+	});
+
+		return $array;
+}
+$tipo = $_FILES['archivo']['type']; 
+$tamanio = $_FILES['archivo']['size']; 
+$archivotmp = $_FILES['archivo']['tmp_name']; 
+//cargamos el archivo
+$lineas = file($archivotmp);
+//echo $lineas;
+$fichero = file_get_contents($archivotmp, FILE_USE_INCLUDE_PATH);
+//echo $fichero;
+$fichero2 = preg_replace(';', ',', $fichero);
+//echo $fichero2;
+//
+
+$lineas=utf8_converter($lineas);
+//print_r($lineas);
+//foreach ($lineas AS $clave=>$arr){
+    //echo '<br>'.$clave;
+    //$arr = preg_replace(';', ',', $arr);
+    //print_r($arr);
+    //foreach ($arr AS $key=>$ar){
+    //    print_r($ar); 
+    //    echo '<br>ar'.$key;
+    //}
+//}
+//$lineas = preg_replace(';', ',', $lineas);
+$csv= array_map(function($v){return str_getcsv($v, ";");}, $lineas);
+//$csv = array_map('str_getcsv', $lineas,[";"]);
+array_walk($csv, function(&$a) use ($csv) {
+	$a = array_combine($csv[0], $a);
+});
+	array_shift($csv); 
+//guardar array en variable session
+$_SESSION['l_csv']=array();
+$_SESSION['l_csv']=$csv;
+//print_r($csv);
+?>
+<form action="inc/guardar_csv3.php" method="post" id="guardarcsv2">
+	
+	
+<?php
+echo '<table class="table table-bordered table-sm">';
+echo '<thead>';
+echo '<th>CODIDM</th>';
+echo '<th>IDPERSONA</th>';
+echo '<th>Nro Jub.</th>';
+echo '<th>Nro Pen.</th>';
+echo '<th>Fecha Fall</th>';
+echo '<th>nro exp</th>';
+echo '<th>Fecha alta</th>';
+echo '<th>Fecha vig</th>';
+echo '<th>Fecha cese</th>';
+echo '<th>Dias imps</th>';
+echo '</thead>';
+echo '<tbody>';
+foreach ($csv AS $clave=>$valor){
+    if ((is_numeric($valor['CODIDM'])) && ( (!empty($valor['NROPEN'])) || (!empty($valor['NROJUBILADO'])) )) {
+        
+        
+        
+    echo '<tr class="fila'.$clave.'">';
+    echo '<td>'.$valor['CODIDM'].'</td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][1]" value='.$valor['IDPERSONA'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][2]" value='.$valor['NROJUBILADO'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][3]" value='.$valor['NROPEN'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][4]" value='.$valor['FECHAFALLECJUB'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][5]" value='.$valor['NROEXPTE'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][6]" value='.$valor['FECHAALTA'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][7]" value='.$valor['FECHAVIG'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][8]" value='.$valor['FECHACESE'].'></td>';
+    echo '<td><input class="form-control" type="text" name="col['.$clave.'][9]" value='.$valor['DIASIMPS'].'></td>';
+    echo '</tr>';
+    }
+}
+
+echo '</tbody>';
+ echo '</table>';
+
+?>
+<div class="row">
+	<div class="col-12">
+		<button type="submit" class="btn btn-success" id="btnGuardarCsv">Guardar</button>
+	</div>
+</div>	
+</form>

@@ -1,0 +1,40 @@
+<?php
+session_start();
+header('Content-Type: application/json');
+include '../conexion/conectar.inc';
+include '../inc/funciones.inc';
+global $conectar;
+$respuesta = new stdClass;
+$columnas=$_POST['column'];
+foreach ($columnas as $valor){
+    
+}
+$cols=$_POST['col'];
+$contador=0;
+foreach ($cols as $valor){
+    //print_r($valor);
+    $idpersona=$valor[1];
+    $nrojub=$valor[2];
+    $nropen=$valor[3];
+    $fechafall=$valor[4];
+    $nroexp=$valor[5];
+    $fechaalta=$valor[6];
+    $fechavig=$valor[7];
+    $fechacese=$valor[8];
+    $diasimps=$valor[9];
+    //echo $nropen.'<br>\n\r';
+    $query="UPDATE `municxper` SET `NROJUBILADO`='$nrojub',`NROEXPTE`='$nroexp',`FECHAALTA`='$fechaalta',`FECHAVIG`='$fechavig',`FECHACESE`='$fechacese',`DIASIMPS`='$diasimps',`NROPEN`='$nropen',`FECHAFALLECJUB`='$fechafall' WHERE IDPERSONA='$idpersona'";
+    $conectar->query($query);
+    if ($fechafall>'1970-01-01') {
+        $contador++;
+        $query2="UPDATE `personas` SET `MUERTO`='1',`FECHAFALLEC`='$fechafall' WHERE `IDPERSONA`='$idpersona'";
+        $conectar->query($query2);
+    }
+    $respuesta->query[]=$query;
+   
+}
+$respuesta->updates=$contador;
+
+
+//print_r($_POST);
+echo json_encode($respuesta, JSON_FORCE_OBJECT);
