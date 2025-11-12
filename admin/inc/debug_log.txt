@@ -1,0 +1,1880 @@
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-16
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phplItVfN
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-16
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpl9MNtP
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 
+    [principal] => 1
+    [activo] => 1
+    [titulo] => pppppmnb
+    [subtitulo] => kbkj
+    [contenido] => 
+    [link] => 
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpZKyZAd
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-24
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpa1xMJt
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-24
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phprW9Sa0
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-25
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpgEu9W9
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-25
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpLo8Zo8
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-26
+    [principal] => 1
+    [activo] => 1
+    [titulo] => ssad
+    [subtitulo] => sad
+    [contenido] => assda
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phplkDdRk
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-26
+    [principal] => 1
+    [activo] => 1
+    [titulo] => ssad
+    [subtitulo] => sad
+    [contenido] => assda
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/php4LaCvR
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Prueba
+    [subtitulo] => Nueva prubes
+    [contenido] => sdsads
+    [link] => 
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpHLQJDr
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Prueba
+    [subtitulo] => Nueva prubes
+    [contenido] => sdsads
+    [link] => 
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpvgc8Ry
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => sadas
+    [subtitulo] => sadsa
+    [contenido] => asdasd
+    [link] => https://jjd.com
+    [guardar] => Guardar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpUrQh7m
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Prubea
+    [subtitulo] => assa
+    [contenido] => saddas
+    [link] => http://jajaj.com
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpMrm2Zr
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Volvio
+    [subtitulo] => Andoun
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => logo junta.png
+            [full_path] => logo junta.png
+            [type] => image/png
+            [tmp_name] => /tmp/php1DBcjU
+            [error] => 0
+            [size] => 188653
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual - Desalojos de Nichos
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [full_path] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpeMqmHy
+            [error] => 0
+            [size] => 124347
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual - Desalojos de Nichos
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [full_path] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpGbDEHW
+            [error] => 0
+            [size] => 124347
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual 
+    [subtitulo] => Desalojo de Nichos
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [full_path] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpnqioD8
+            [error] => 0
+            [size] => 124347
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual 
+    [subtitulo] => Desalojo de Nichos
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [full_path] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpnmu7A0
+            [error] => 0
+            [size] => 124347
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-22
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual 
+    [subtitulo] => Desalojo de Nichos
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [full_path] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpUJFIuM
+            [error] => 0
+            [size] => 124347
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-22
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual - Panteones Sociales
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Seguro Mutual (2).png
+            [full_path] => Seguro Mutual (2).png
+            [type] => image/png
+            [tmp_name] => /tmp/phpfQ21gq
+            [error] => 0
+            [size] => 281751
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual - Panteones Sociales
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Seguro Mutual (2).png
+            [full_path] => Seguro Mutual (2).png
+            [type] => image/png
+            [tmp_name] => /tmp/phpSp7E9E
+            [error] => 0
+            [size] => 281751
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual
+    [subtitulo] => Nuevos Horarios - Panteones Sociales
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Seguro Mutual (2).png
+            [full_path] => Seguro Mutual (2).png
+            [type] => image/png
+            [tmp_name] => /tmp/phpjDVCk4
+            [error] => 0
+            [size] => 281751
+        )
+
+)
+Array
+(
+    [id] => 28
+    [imagenold] => img/novedades/174684529novedad.png
+    [seccion] => 1
+    [fecha] => 2024-08-28
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Formularios electrónicos obligatorios
+    [subtitulo] => 
+    [contenido] => 
+    [link] => https://impsr.gob.ar/poder.html
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 40
+    [imagenold] => img/novedades/289915394novedad.jpg
+    [seccion] => 1
+    [fecha] => 2025-01-22
+    [activo] => 1
+    [titulo] => Seguro Mutual 
+    [subtitulo] => Desalojo de Nichos
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 41
+    [imagenold] => img/novedades/1277660080novedad.png
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [activo] => 1
+    [titulo] => Seguro Mutual
+    [subtitulo] => Nuevos Horarios - Panteones Sociales
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 40
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-22
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual 
+    [subtitulo] => Desalojo de Nichos
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 41
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [principal] => 1
+    [activo] => 1
+    [titulo] => Seguro Mutual
+    [subtitulo] => Nuevos Horarios - Panteones Sociales
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 30
+    [imagenold] => img/novedades/1152548182novedad.jpg
+    [seccion] => 1
+    [fecha] => 2024-10-29
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => No se aceptan formularios escritos a mano
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 40
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-22
+    [activo] => 1
+    [titulo] => Seguro Mutual 
+    [subtitulo] => Desalojo de Nichos
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 30
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-10-29
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => No se aceptan formularios escritos a mano
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 41
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [activo] => 1
+    [titulo] => Seguro Mutual
+    [subtitulo] => Nuevos Horarios - Panteones Sociales
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 26
+    [imagenold] => img/novedades/975890588novedad.jpg
+    [seccion] => 1
+    [fecha] => 2024-03-11
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => Línea telefónica Tel. 5587023
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 28
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-08-28
+    [activo] => 1
+    [titulo] => Formularios electrónicos obligatorios
+    [subtitulo] => 
+    [contenido] => 
+    [link] => https://impsr.gob.ar/poder.html
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 26
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-03-11
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => Línea telefónica Tel. 5587023
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Verde Negro y Blanco Foto Sitios Web Presentación.jpg
+            [full_path] => Verde Negro y Blanco Foto Sitios Web Presentación.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpLuiUNo
+            [error] => 0
+            [size] => 146214
+        )
+
+)
+Array
+(
+    [id] => 41
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-01-21
+    [activo] => 1
+    [titulo] => Seguro Mutual
+    [subtitulo] => Nuevos Horarios - Panteones Sociales
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Verde Foto Cita sobre Naturaleza Mes de los Grandes Espacios Abiertos Publicación de Facebook (1).png
+            [full_path] => Verde Foto Cita sobre Naturaleza Mes de los Grandes Espacios Abiertos Publicación de Facebook (1).png
+            [type] => image/png
+            [tmp_name] => /tmp/phpC9FGTa
+            [error] => 0
+            [size] => 268851
+        )
+
+)
+Array
+(
+    [id] => 28
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-08-28
+    [activo] => 1
+    [titulo] => Formularios electrónicos obligatorios
+    [subtitulo] => 
+    [contenido] => 
+    [link] => https://impsr.gob.ar/poder.html
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype (3).png
+            [full_path] => Blue and White Simple Textfields WebinarEvent Platform Website UI Prototype (3).png
+            [type] => image/png
+            [tmp_name] => /tmp/phpFl8tpa
+            [error] => 0
+            [size] => 204007
+        )
+
+)
+Array
+(
+    [id] => 26
+    [imagenold] => img/novedades/1876425548novedad.jpg
+    [seccion] => 1
+    [fecha] => 2024-03-11
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => Línea telefónica Tel. 5587023
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => img/novedades/1470080155novedad.png
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrr
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpY7Yv4D
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/php62jz3u
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/php5FExdy
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpIWc3QH
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooob
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpFfYcc2
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpug23m7
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpf2FZT5
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpnSYF0S
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpLgQq5z
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/php3sMA0L
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpsDhZ9b
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpNXhKzF
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpiLuIUa
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupoookkkk
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => uuu.webp
+            [full_path] => uuu.webp
+            [type] => image/webp
+            [tmp_name] => /tmp/phpELbeZB
+            [error] => 0
+            [size] => 17740
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-13
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Dni frente.jpg
+            [full_path] => Dni frente.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpDAQgIT
+            [error] => 0
+            [size] => 51745
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => img/novedades/301694028novedad.jpg
+    [seccion] => 1
+    [fecha] => 2024-09-04
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-04
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Dni dorso.jpg
+            [full_path] => Dni dorso.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpXP5vBW
+            [error] => 0
+            [size] => 57657
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => img/novedades/1104120161novedad.jpg
+    [seccion] => 1
+    [fecha] => 2024-09-04
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las gananciasoo
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-04
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las gananciasoo
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Dni frente.jpg
+            [full_path] => Dni frente.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpt0HmU9
+            [error] => 0
+            [size] => 51745
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => img/novedades/1375103542novedad.jpg
+    [seccion] => 1
+    [fecha] => 2024-09-04
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las gananciasoonn
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2024-09-04
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las gananciasoonn
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Dni frente.jpg
+            [full_path] => Dni frente.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpEBAILa
+            [error] => 0
+            [size] => 51745
+        )
+
+)
+Array
+(
+    [id] => 29
+    [imagenold] => img/novedades/1546667824novedad.jpg
+    [seccion] => 1
+    [fecha] => 2024-09-04
+    [activo] => 1
+    [titulo] => grrrupooo
+    [subtitulo] => Consultas sobre Impuesto a las ganancias
+    [contenido] => Comuniquesé con nosotros a través del mail detallado
+    [link] => https://cplucasgarcia@impsr.gob.ar
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-08-01
+    [principal] => 1
+    [activo] => 1
+    [titulo] => prueba
+    [subtitulo] => subtitulo de la prueba
+    [contenido] => lalalalalal
+    [link] => https://www.lost.com
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Captura de pantalla 2025-07-20 102405.png
+            [full_path] => Captura de pantalla 2025-07-20 102405.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpBTb4KZ
+            [error] => 0
+            [size] => 618366
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-08-01
+    [principal] => 1
+    [activo] => 1
+    [titulo] => prueba
+    [subtitulo] => subtitulo de la prueba
+    [contenido] => lalalalalal
+    [link] => https://www.lost.com
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Captura de pantalla 2025-07-20 102405.png
+            [full_path] => Captura de pantalla 2025-07-20 102405.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpNzrrBD
+            [error] => 0
+            [size] => 618366
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-08-01
+    [principal] => 1
+    [activo] => 1
+    [titulo] => prueba
+    [subtitulo] => subtitulo de la prueba
+    [contenido] => lalalalalal
+    [link] => https://www.lost.com
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Captura de pantalla 2025-07-20 102405.png
+            [full_path] => Captura de pantalla 2025-07-20 102405.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpC9tbgy
+            [error] => 0
+            [size] => 618366
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-08-01
+    [principal] => 1
+    [activo] => 1
+    [titulo] => prueba
+    [subtitulo] => subtitulo de la prueba
+    [contenido] => lalalalalal
+    [link] => https://www.lost.com
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Captura de pantalla 2025-07-20 102405.png
+            [full_path] => Captura de pantalla 2025-07-20 102405.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpMAksHf
+            [error] => 0
+            [size] => 618366
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 2025-08-01
+    [principal] => 1
+    [activo] => 1
+    [titulo] => prueba
+    [subtitulo] => subtitulo de la prueba
+    [contenido] => lalalalalal
+    [link] => https://www.lost.com
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => Captura de pantalla 2025-07-20 102405.png
+            [full_path] => Captura de pantalla 2025-07-20 102405.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpyleKtD
+            [error] => 0
+            [size] => 618366
+        )
+
+)
+Array
+(
+    [id] => 
+    [imagenold] => 
+    [seccion] => 1
+    [fecha] => 
+    [principal] => 1
+    [activo] => 1
+    [titulo] => 
+    [subtitulo] => 
+    [contenido] => 
+    [link] => 
+)
+Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)

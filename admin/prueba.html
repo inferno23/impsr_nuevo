@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendario de selección</title>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.5/main.min.css" rel="stylesheet">
+  <style>
+    #calendar {
+      max-width: 800px;
+      margin: 40px auto;
+    }
+    #guardarFechas {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Seleccioná las fechas y guardalas</h2>
+<div id="calendar"></div>
+<button id="guardarFechas">Guardar fechas</button>
+
+<!-- Scripts necesarios -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.5/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.5/locales/es.js"></script>
+
+<script>
+  let fechasSeleccionadas = [];
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const calendarEl = document.getElementById('calendar');
+
+    const calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      locale: 'es',
+      selectable: false,
+      dateClick: function (info) {
+        const fecha = info.dateStr;
+        const index = fechasSeleccionadas.indexOf(fecha);
+
+        if (index === -1) {
+          fechasSeleccionadas.push(fecha);
+          calendar.addEvent({
+            title: 'Seleccionado',
+            start: fecha,
+            allDay: true,
+            color: '#4CAF50'
+          });
+        } else {
+          fechasSeleccionadas.splice(index, 1);
+          calendar.getEvents().forEach(event => {
+            if (event.startStr === fecha) {
+              event.remove();
+            }
+          });
+        }
+      }
+    });
+
+    calendar.render();
+
+    $('#guardarFechas').click(function () {
+      if (fechasSeleccionadas.length === 0) {
+        alert('Seleccioná al menos una fecha');
+        return;
+      }
+
+      $.post('guardar_fechas.php', { fechas: fechasSeleccionadas }, function (respuesta) {
+        alert(respuesta);
+        fechasSeleccionadas = [];
+        calendar.getEvents().forEach(event => event.remove());
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<?php
+
+	include_once 'constants.php';
+	include_once 'connect.php';
+	include_once 'password_compat-master/lib/password.php';
+	// var_dump(password_hash('2019', PASSWORD_BCRYPT));
+
+	if ( !isset($_POST['username'], $_POST['password']) ) {
+		die ('Please fill both the username and password field!');
+	}
+
+	$redirectURL = isset($_GET['redirect']) ? BASE_URL.urldecode($_GET['redirect']) : BASE_URL;
+
+	$stmt = buscarPensionado();
+
+	if (!$stmt->num_rows) {
+		$stmt = buscarJubilado();
+	}
+
+	if (!$stmt->num_rows) {
+		$stmt = buscarGraciable();
+	}
+
+	if (!$stmt->num_rows) {
+		$stmt = buscarPersona();
+	}
+
+
+	// Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string so we use "s"
+	if ($stmt->num_rows > 0) {
+		$stmt->bind_result($IDPERSONA, $CLAVE, $APELLYNOMBRE, $NROJUBILADO, $NROPEN);
+		$stmt->fetch();
+
+		//var_dump(password_verify($_POST['password'], $CLAVE)); die();
+		$ok = password_verify($_POST['password'], $CLAVE);
+
+		// Account exists, now we verify the password.
+		// Note: remember to use password_hash in your registration file to store the hashed passwords.
+		if ($ok OR $_POST['password'] == $CLAVE) {
+			// Verification success! User has loggedin!
+			// Create sessions so we know the user is logged in, they basically act like cookies but remember the data on the server.
+			session_regenerate_id();
+			$_SESSION['loggedin'] = TRUE;
+			$_SESSION['NOMBREUSUARIO'] = $_POST['username'];
+			$_SESSION['id'] = $IDPERSONA;
+			$_SESSION['APELLYNOMBRE'] = $APELLYNOMBRE;
+
+			header('Location: '.$redirectURL);
+		} else {
+			header('Location: '.BASE_URL.'login.html?error=datos_incorrectos error clave');
+		}
+	} else {
+		// die($redirectURL.'?error='.urlencode('Datos incorrectos'));
+		header('Location: '.BASE_URL.'login.html?error=datos_incorrectos no se encuentra usuario');
+	}
+	
+	$stmt->close();
+
+	function buscarPersona() {
+		global $con;
+
+		$sql = "SELECT P.IDPERSONA, P.CLAVE, P.APELLYNOMBRE, P.APELLYNOMBRE, P.APELLYNOMBRE FROM personas P WHERE P.NRODOC = ?";
+
+		$stmt = $con->prepare($sql);
+		if ($stmt) {
+			$stmt->bind_param('s', $_POST['username']);
+			$stmt->execute();
+			$stmt->store_result();			
+			return $stmt;
+		} else {
+			return false;
+		}
+	}
+
+	function buscarPensionado() {
+		global $con;
+
+		$sql = "SELECT P.IDPERSONA, P.CLAVE, P.APELLYNOMBRE, M.NROJUBILADO, M.NROPEN FROM personas P, causante C, municxper M
+				WHERE (
+					P.IDPERSONA = C.IDPERSONA
+					AND C.IDPER = M.IDPERSONA
+					AND M.NROPEN = ?
+				)";
+		$stmt = $con->prepare($sql);
+		if ($stmt) {
+			$stmt->bind_param('s', $_POST['username']);
+			$stmt->execute();
+			$stmt->store_result();			
+			return $stmt;
+		} else { return false;	}
+	}
+
+	function buscarGraciable() {
+		global $con;
+		$sql = "SELECT P.IDPERSONA, P.CLAVE, P.APELLYNOMBRE, M.NROJUBILADO, M.NROPEN 
+				FROM personas P, municxper M 
+				WHERE ( P.IDPERSONA = M.IDPERSONA AND M.NROPEN = ?)";
+		$stmt = $con->prepare($sql);
+		if ($stmt) {
+			$stmt->bind_param('s', $_POST['username']);
+			$stmt->execute();
+			$stmt->store_result();			
+			return $stmt;
+		} else { return false;	}
+	}
+
+	function buscarJubilado() {
+		global $con;		
+		$sql = "SELECT P.IDPERSONA, P.CLAVE, P.APELLYNOMBRE, M.NROJUBILADO, M.NROPEN 
+				FROM personas P, municxper M
+				WHERE (P.IDPERSONA = M.IDPERSONA AND M.NROJUBILADO = ?)";
+		$stmt = $con->prepare($sql);
+		if ($stmt) {
+			$stmt->bind_param('s', $_POST['username']);
+			$stmt->execute();
+			$stmt->store_result();			
+			return $stmt;
+		} else { return false;	}
+	}
+
+?>

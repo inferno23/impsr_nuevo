@@ -1,0 +1,1362 @@
+[23-Feb-2021 14:50:53 America/Sao_Paulo] --Insertar datos en tabla municxper--
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8750' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8751' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8752' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8753' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8754' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8755' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8756' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8757' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8758' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8759' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8760' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8761' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8762' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8763' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8764' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8765' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8766' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8767' for key 'PRIMARY'
+[23-Feb-2021 14:50:53 America/Sao_Paulo]  error Duplicate entry '8768' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo] --Insertar datos en tabla municxper--
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8753' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8754' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8755' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8756' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8757' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8758' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8759' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8760' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8761' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8762' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8763' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8764' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8765' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8766' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8767' for key 'PRIMARY'
+[24-Feb-2021 09:49:48 America/Sao_Paulo]  error Duplicate entry '8768' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo] --Insertar datos en tabla municxper--
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8753' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8754' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8755' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8756' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8757' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8758' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8759' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8760' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8761' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8762' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8763' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8764' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8765' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8766' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8767' for key 'PRIMARY'
+[24-Feb-2021 09:50:04 America/Sao_Paulo]  error Duplicate entry '8768' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo] --Insertar datos en tabla municxper--
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8753' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8754' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8755' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8756' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8757' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8758' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8759' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8760' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8761' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8762' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8763' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8764' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8765' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8766' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8767' for key 'PRIMARY'
+[24-Feb-2021 09:51:53 America/Sao_Paulo]  error Duplicate entry '8768' for key 'PRIMARY'
+[05-Mar-2021 13:44:17 America/Sao_Paulo] --Insertar datos en tabla municxper--
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:17 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:18 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:18 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:18 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:18 America/Sao_Paulo]  error 
+[05-Mar-2021 13:44:18 America/Sao_Paulo]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '61,68' for column 'COMPDICBCO' at row 1
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2021 07:20:05 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '250,61' for column 'COMPDICBCO' at row 1
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[07-Dec-2021 10:39:54 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[03-Jan-2022 08:27:38 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '137,91' for column 'COMPDICBCO' at row 1
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '122,33' for column 'COMPDICBCO' at row 1
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '100,09' for column 'COMPDICBCO' at row 1
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Feb-2022 07:55:13 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error 
+[08-Mar-2022 07:16:31 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[10-Mar-2022 11:22:58 America/Argentina/Buenos_Aires]  error 
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9091' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9092' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9093' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9094' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9095' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9096' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9097' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9098' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9099' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9100' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9101' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9102' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9104' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9105' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9106' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9107' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9108' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9109' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9110' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9111' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9112' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9113' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9114' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9115' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9116' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9117' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9118' for key 'PRIMARY'
+[11-Mar-2022 13:25:51 America/Argentina/Buenos_Aires]  error Duplicate entry '9119' for key 'PRIMARY'
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[08-Apr-2022 08:49:58 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:06 America/Argentina/Buenos_Aires]  error 
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9155' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9156' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9157' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9158' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9159' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9160' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9161' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9162' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9163' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9164' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9165' for key 'PRIMARY'
+[10-May-2022 07:35:17 America/Argentina/Buenos_Aires]  error Duplicate entry '9166' for key 'PRIMARY'
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2022 07:37:11 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[06-Jul-2022 09:32:20 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[02-Aug-2022 13:38:50 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '187,86' for column 'COMPDICBCO' at row 1
+[25-Aug-2022 07:54:04 America/Argentina/Buenos_Aires]  error 
+[31-Aug-2022 07:52:54 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[31-Aug-2022 07:52:54 America/Argentina/Buenos_Aires]  error 
+[31-Aug-2022 07:52:54 America/Argentina/Buenos_Aires]  error 
+[31-Aug-2022 07:52:54 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error Duplicate entry '9283' for key 'PRIMARY'
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error Duplicate entry '9284' for key 'PRIMARY'
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error Duplicate entry '9285' for key 'PRIMARY'
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error Duplicate entry '9286' for key 'PRIMARY'
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[27-Sep-2022 07:37:27 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '5,5' for column 'IAPOS' at row 1
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[01-Nov-2022 08:05:06 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[23-Nov-2022 07:43:28 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '246,99' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '128,21' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '122,33' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '122,33' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '122,09' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '122,09' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '89,87' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '116,62' for column 'COMPDICBCO' at row 1
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2023 08:02:09 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error Duplicate entry '9425' for key 'PRIMARY'
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error Duplicate entry '9426' for key 'PRIMARY'
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error Duplicate entry '9427' for key 'PRIMARY'
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[31-Jan-2023 07:13:23 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '5,5' for column 'IAPOS' at row 1
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[02-Mar-2023 07:20:55 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[04-Apr-2023 11:34:38 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '89,96' for column 'COMPDICBCO' at row 1
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '5,5' for column 'IAPOS' at row 1
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[28-Apr-2023 12:12:29 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '675706,28' for column 'REMUNPROM' at row 1
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[06-Jun-2023 11:00:02 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '120,04' for column 'COMPDICBCO' at row 1
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[01-Jul-2023 08:56:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error 
+[03-Aug-2023 13:02:26 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '4,5' for column 'IAPOS' at row 1
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[04-Sep-2023 09:41:49 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[06-Oct-2023 10:27:14 America/Argentina/Buenos_Aires]  error 
+[03-Nov-2023 08:49:50 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[03-Nov-2023 08:49:50 America/Argentina/Buenos_Aires] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'impsr'@'localhost' (using password: YES) in /home/impsr/public_html/update_db/sc_municxper.php on line 6
+[03-Nov-2023 08:49:50 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/impsr/public_html/update_db/sc_municxper.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/impsr/public_html/update_db/sc_municxper.php on line 9
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[06-Nov-2023 08:01:42 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Dec-2023 14:08:22 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '133,89' for column 'COMPDICBCO' at row 1
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Jan-2024 07:26:57 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '100,09' for column 'COMPDICBCO' at row 1
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '122,33' for column 'COMPDICBCO' at row 1
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '100,09' for column 'COMPDICBCO' at row 1
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '122,32' for column 'COMPDICBCO' at row 1
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[05-Feb-2024 08:01:39 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[04-Mar-2024 07:55:55 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '67,51' for column 'COMPDICBCO' at row 1
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[03-Apr-2024 08:58:35 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '135,1' for column 'COMPDICBCO' at row 1
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[06-May-2024 10:10:58 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '553795,22' for column 'REMUNPROM' at row 1
+[05-Jun-2024 13:19:29 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[02-Jul-2024 21:16:59 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[05-Aug-2024 07:25:23 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[02-Sep-2024 07:49:45 America/Argentina/Buenos_Aires]  error 
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9938' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9939' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9940' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9941' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9942' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9943' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9944' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9945' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9946' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9947' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9948' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9949' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9950' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9951' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9952' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9953' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9954' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9955' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9956' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9957' for key 'PRIMARY'
+[08-Sep-2024 10:48:54 America/Argentina/Buenos_Aires]  error Duplicate entry '9958' for key 'PRIMARY'
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '274,92' for column 'COMPDICBCO' at row 1
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[03-Oct-2024 08:08:40 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '71,03' for column 'COMPDICBCO' at row 1
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[04-Nov-2024 07:36:06 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires] --Insertar datos en tabla municxper--
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error Incorrect decimal value: '644062,39' for column 'REMUNPROM' at row 1
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[29-Nov-2024 09:17:41 America/Argentina/Buenos_Aires]  error 
+[06-Jan-2025 10:46:17 UTC] --Insertar datos en tabla municxper--
+[06-Jan-2025 10:46:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'impsr'@'localhost' (using password: YES) in /home/impsr/public_html/update_db/sc_municxper.php on line 6
+[06-Jan-2025 10:46:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/impsr/public_html/update_db/sc_municxper.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/impsr/public_html/update_db/sc_municxper.php on line 9
+[06-Jan-2025 11:30:03 UTC] --Insertar datos en tabla municxper--
+[06-Jan-2025 11:30:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'impsr'@'localhost' (using password: YES) in /home/impsr/public_html/update_db/sc_municxper.php on line 6
+[06-Jan-2025 11:30:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/impsr/public_html/update_db/sc_municxper.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/impsr/public_html/update_db/sc_municxper.php on line 9
+[06-Jan-2025 12:27:19 UTC] --Insertar datos en tabla municxper--
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error Data truncated for column 'COMPDICBCO' at row 1
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 
+[06-Jan-2025 12:27:19 UTC]  error 

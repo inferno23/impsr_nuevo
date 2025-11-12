@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<causantes>
+        <causante>
+            <IDCAUSANTE>4141</IDCAUSANTE>
+            <NRODOC>13794426</NRODOC>
+            <APELLYNOM>ESPINDOLA DANIEL CELESTINO</APELLYNOM>
+            <FECHANAC>1960-03-28</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>6</IDTPOJUB>
+            <IDPERSONA>32702</IDPERSONA>
+            <IDPER>3757</IDPER>
+            <FECHAFALLEC>2024-11-08</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4142</IDCAUSANTE>
+            <NRODOC>11446937</NRODOC>
+            <APELLYNOM>BEMBO CARLOS ALBERTO</APELLYNOM>
+            <FECHANAC>1955-01-28</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>5</IDTPOTRAMITE>
+            <IDTPOJUB></IDTPOJUB>
+            <IDPERSONA>32704</IDPERSONA>
+            <IDPER>32703</IDPER>
+            <FECHAFALLEC>2024-10-31</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4143</IDCAUSANTE>
+            <NRODOC>6014034</NRODOC>
+            <APELLYNOM>ESCALANTE ARQUIMIDES</APELLYNOM>
+            <FECHANAC>1935-12-12</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>1</IDTPOJUB>
+            <IDPERSONA>32705</IDPERSONA>
+            <IDPER>3701</IDPER>
+            <FECHAFALLEC>2024-09-16</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4144</IDCAUSANTE>
+            <NRODOC>4488947</NRODOC>
+            <APELLYNOM>SIMBRON MARIA MERCEDES</APELLYNOM>
+            <FECHANAC>1942-11-22</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>1</IDTPOJUB>
+            <IDPERSONA>32709</IDPERSONA>
+            <IDPER>10335</IDPER>
+            <FECHAFALLEC>2024-09-24</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4145</IDCAUSANTE>
+            <NRODOC>13449033</NRODOC>
+            <APELLYNOM>PEROUCH ANGEL MANUEL</APELLYNOM>
+            <FECHANAC>1959-07-02</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>1</IDTPOJUB>
+            <IDPERSONA>32711</IDPERSONA>
+            <IDPER>32174</IDPER>
+            <FECHAFALLEC>2024-12-05</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4146</IDCAUSANTE>
+            <NRODOC>4599377</NRODOC>
+            <APELLYNOM>OLIVARES LORENZA DEL ROSARIO</APELLYNOM>
+            <FECHANAC>1945-06-12</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>6</IDTPOJUB>
+            <IDPERSONA>32715</IDPERSONA>
+            <IDPER>7856</IDPER>
+            <FECHAFALLEC>2023-01-01</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4147</IDCAUSANTE>
+            <NRODOC>20513327</NRODOC>
+            <APELLYNOM>PAFUMI GUSTAVO GABRIEL</APELLYNOM>
+            <FECHANAC>1969-04-23</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>4</IDTPOTRAMITE>
+            <IDTPOJUB></IDTPOJUB>
+            <IDPERSONA>32716</IDPERSONA>
+            <IDPER>8039</IDPER>
+            <FECHAFALLEC>2024-11-25</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4148</IDCAUSANTE>
+            <NRODOC>20513327</NRODOC>
+            <APELLYNOM>PAFUMI GUSTAVO GABRIEL</APELLYNOM>
+            <FECHANAC>1969-04-23</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>4</IDTPOTRAMITE>
+            <IDTPOJUB></IDTPOJUB>
+            <IDPERSONA>32718</IDPERSONA>
+            <IDPER>32717</IDPER>
+            <FECHAFALLEC>2024-11-25</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4149</IDCAUSANTE>
+            <NRODOC>12527965</NRODOC>
+            <APELLYNOM>MENDEZ ROBERTO OSVALDO</APELLYNOM>
+            <FECHANAC>1956-08-30</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>6</IDTPOJUB>
+            <IDPERSONA>32719</IDPERSONA>
+            <IDPER>7026</IDPER>
+            <FECHAFALLEC>2019-11-25</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4150</IDCAUSANTE>
+            <NRODOC>11752344</NRODOC>
+            <APELLYNOM>PAGANO MYRIAM SUSANA</APELLYNOM>
+            <FECHANAC>1954-11-14</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>1</IDTPOJUB>
+            <IDPERSONA>32720</IDPERSONA>
+            <IDPER>8044</IDPER>
+            <FECHAFALLEC>2024-04-24</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4151</IDCAUSANTE>
+            <NRODOC>5999269</NRODOC>
+            <APELLYNOM>AMANTE FRANCISCO LUIS</APELLYNOM>
+            <FECHANAC>1932-12-25</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>3</IDTPOJUB>
+            <IDPERSONA>32721</IDPERSONA>
+            <IDPER>495</IDPER>
+            <FECHAFALLEC>2024-11-08</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>4152</IDCAUSANTE>
+            <NRODOC>6062169</NRODOC>
+            <APELLYNOM>RIVERO RAUL ENRIQUE</APELLYNOM>
+            <FECHANAC>1945-10-09</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>1</IDTPOJUB>
+            <IDPERSONA>32722</IDPERSONA>
+            <IDPER>9250</IDPER>
+            <FECHAFALLEC>2024-11-26</FECHAFALLEC>
+        </causante>		
+</causantes>

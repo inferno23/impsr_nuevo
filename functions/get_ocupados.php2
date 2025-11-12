@@ -1,0 +1,29 @@
+<?php
+include_once 'constants.php';
+include_once 'connect.php';
+global $con;
+
+$respuesta= new stdClass();
+
+$seccion=$_POST['seccion'];
+//
+
+
+//
+
+$feriados=array();
+$queryfe="SELECT fecha FROM turnos_feriados WHERE id_seccion='$seccion' AND fecha>=NOW() ";
+$resf=$con->query($queryfe);
+if($resf){
+    while ($rowf=$resf->fetch_assoc()) {
+        $date = new DateTime($rowf['fecha']);
+        $fe=$date->format('j-n-Y');
+        $feriados[]=$fe;
+    }
+}
+//
+
+$respuesta->success=true;
+$respuesta->fer=$feriados;
+
+echo json_encode($respuesta);

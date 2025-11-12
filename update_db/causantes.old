@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<causantes>
+        <causante>
+            <IDCAUSANTE>3651</IDCAUSANTE>
+            <NRODOC>10068567</NRODOC>
+            <APELLYNOM>CLAPS CARLOS VICTOR </APELLYNOM>
+            <FECHANAC>1951-09-15</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>6</IDTPOJUB>
+            <IDPERSONA>26637</IDPERSONA>
+            <IDPER>26636</IDPER>
+            <FECHAFALLEC>2020-10-26</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>3652</IDCAUSANTE>
+            <NRODOC>6078109</NRODOC>
+            <APELLYNOM>FRUTOS VICTOR HUGO</APELLYNOM>
+            <FECHANAC>1947-12-08</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>1</IDTPOJUB>
+            <IDPERSONA>26645</IDPERSONA>
+            <IDPER>4399</IDPER>
+            <FECHAFALLEC>2020-11-05</FECHAFALLEC>
+        </causante>		
+        <causante>
+            <IDCAUSANTE>3653</IDCAUSANTE>
+            <NRODOC>6070630</NRODOC>
+            <APELLYNOM>SACCO JORGE EDUARDO</APELLYNOM>
+            <FECHANAC>1947-02-26</FECHANAC>
+            <IDTPODOC>1</IDTPODOC>
+            <IDTPOTRAMITE>1</IDTPOTRAMITE>
+            <IDTPOJUB>6</IDTPOJUB>
+            <IDPERSONA>26647</IDPERSONA>
+            <IDPER>9754</IDPER>
+            <FECHAFALLEC>2020-12-25</FECHAFALLEC>
+        </causante>		
+</causantes>

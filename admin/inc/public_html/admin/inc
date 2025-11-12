@@ -1,0 +1,80 @@
+<?php
+?>
+
+
+<div class="container">
+	<div class="row">
+				<div class="col-12">
+					<div class="card w-100">
+						<div class="card-header">Bloquear Fechas libres(feriados,paros,etc)</div>
+						<form class="form" id="remForm" method="post" action="inc/bloqueo_dia.php" enctype="multipart/form-data">
+						<div class="card-body">							
+							<h5 class="card-title">Seleccione día y sección a bloquear</h5>
+							<div class="row mb-3">
+								<div class="col-6">
+									<div class="input-group">
+									
+											<div class="input-group-text">Seleccione día</div>
+											<input type="date" required class="form-control" name="fecha" >
+									
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="input-group">
+											<div class="input-group-text">Seleccione Sección</div>
+										<select  name="id_seccion" >
+										    <option value="1">Créditos</option>
+                                            <option value="2" selected>Inicio Jubilación y Pensión</option>
+                                            <option value="3">Mesa de Entrada(tramites  engral)</option>
+                                            <option value="4">Tesorería</option>
+                                            <option value="5" >Iapos</option>
+                                            <option value="6">Auditoría Médica</option>
+                                            <option value="7" >Seguros</option>
+                                            <option value="8">Créditos Provisorios</option>
+										 </select>
+								
+								</div>
+								</div>
+								</div>
+							
+						<div class="card-footer">
+							<button type="submit" class="btn btn-block btn-outline-success">Procesar</button>
+						</div>
+						</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$('#remForm').submit(function(e){
+		e.preventDefault();
+		if (!confirm("Esta seguro de que desea bloquear esta fecha?")) 
+			{	return false; }
+		else { 
+    		var data = new FormData(this);
+    		$.ajax({
+    			type: 'POST',
+    			url: $(this).attr('action'),
+    			data: data,
+    			contentType: false,
+    			cache: false,
+    			dataType: "json",
+    			processData: false,
+    			success: function(data){
+    				if (data.success){
+        			    alert('Fecha bloqueada correctamente');
+
+        			}else{
+        				alert('Error '+data.error);	
+        			}
+    			}          
+    		});
+    	}
+    				
+    });
+
+</script>

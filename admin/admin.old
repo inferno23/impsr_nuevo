@@ -1,0 +1,614 @@
+<?php
+session_start();
+if (!isset($_SESSION['imps'])){
+    header("location:index.php");
+} 
+
+
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Ingreso Sistema</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--/*<base href="/sistema/" target="_blank">*/
+	
+	<!-- bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<!-- bootstrap select -->
+	
+	<!-- fontawesome -->
+	<link href="css/all.min.css" rel="stylesheet" >
+	<!-- fuentes google 
+	<link href="https://fonts.googleapis.com/css?family=Magra:400,700" rel="stylesheet">
+	<!-- datatables -->
+	<!-- <link rel="stylesheet" href="css/jquery.dataTables.min.css" type="text/css" media="all" />
+	<script src="js/jquery.dataTables.min.js"></script>-->	
+	<link rel="stylesheet" href="css/datatables.min.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/estilo.css">
+	<!-- Export -->
+	<link href="css/tableexport.css" rel="stylesheet" type="text/css">
+	<!--  -->
+	<link rel="stylesheet" href="css/bootstrap-select.min.css">
+	
+	<!-- Jquery 3 -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	
+<script>
+var showLoadingEnabled = true;
+$(function(){
+	
+	//
+	$.ajaxSetup({
+		 beforeSend: function(xhr, status) {
+	        	if (showLoadingEnabled) {	
+	            	$('#wait').show();
+	            	$('.btnguardar').prop('disabled', true);
+	        	}
+	        },
+	        complete: function() {
+	        	if (showLoadingEnabled) {
+	            	$('#wait').hide();
+	            	$('.btnguardar').prop('disabled', false);
+	        	}
+	        }
+    });
+    
+	$(document).ajaxStart(function(){
+		if (showLoadingEnabled) {
+		$('#wait').show();
+		}
+	});
+
+	$(document).ajaxComplete(function(){
+		if (showLoadingEnabled) {
+		$('#wait').hide();
+		}
+	});
+	$(document).on('click', '#imprimir', function(e) {
+		e.preventDefault();
+		window.print();
+		return false;
+		});
+	$('#salir').click(function(e){
+		e.preventDefault();
+		$.post( "inc/salir.php");
+		window.location="login.php";
+		return false;
+		});
+	$('#cargaCsv1').click(function(e){
+		e.preventDefault();
+		console.log('abre pedido');
+		$('#modalCsv1').modal({
+		    backdrop: 'static',
+		    keyboard: false 
+		});
+	});
+	$('#formCsv1').submit(function(e){
+		e.preventDefault();
+		var data = new FormData(this);
+		$.ajax({
+			type: 'POST',
+			url: $(this).attr('action'),
+			data: data,
+			contentType: false,
+			//dataType: "json",
+			cache: false,
+			processData: false,
+			success: function(data){
+				$('#centro').html(data);
+				$('#modalCsv1').modal('hide');
+				$('body').removeClass('modal-open');
+				$('.modal-backdrop').remove();	
+			    	
+			}          
+		});
+	});
+	$(document).one('submit', '#formCsv11', function(e) {
+		e.preventDefault();
+		$('#btnGuardarCsv').prop('disabled',true);
+		if (!confirm("Esta seguro de que desea guardar los registro?")) 
+    		{	$('#btnGuardarCsv').prop('disabled',false);return false; }
+    	else { 
+    		var data = new FormData(this);
+    		$.ajax({
+    			type: 'POST',
+    			url: $(this).attr('action'),
+    			data: data,
+    			contentType: false,
+    			dataType: "json",
+    			cache: false,
+    			processData: false,
+    			success: function(data){
+    				//alert(data.error);
+    				alert('Registros Actualizados '+data.updates);
+    				$('#centro').empty();
+    				$('#btnGuardarCsv').prop('disabled',false);
+    				$('body').removeClass('modal-open');
+    				$('.modal-backdrop').remove();
+    				
+    			    	
+    			}          
+    		});
+    	}		
+	});
+	$(document).one('submit', '#guardarcsv2', function(e) {
+		e.preventDefault();
+		$('#btnGuardarCsv').prop('disabled',true);
+		if (!confirm("Esta seguro de que desea guardar los registro?")) 
+    		{	$('#btnGuardarCsv').prop('disabled',false);return false; }
+    	else { 
+    		var data = new FormData(this);
+    		$.ajax({
+    			type: 'POST',
+    			url: $(this).attr('action'),
+    			data: data,
+    			contentType: false,
+    			dataType: "json",
+    			cache: false,
+    			processData: false,
+    			success: function(data){
+    				//alert(data.error);
+    				alert('Registros Actualizados '+data.updates);
+    				$('#centro').empty();
+    				$('#btnGuardarCsv').prop('disabled',false);
+    				$('body').removeClass('modal-open');
+    				$('.modal-backdrop').remove();
+    				
+    			    	
+    			}          
+    		});
+    	}		
+	});
+	$(document).on('click', '.abre', function(e) {
+		e.preventDefault();		
+		var url=$(this).data('url');
+		$('.abre').parent().removeClass('active');
+		$(this).parent().addClass('active');
+		$('#centro').load(url);
+    });
+	$(document).on('click', '.abre2', function(e) {
+		e.preventDefault();		
+		var url=$(this).data('url');
+		var titulo=$(this).data('titulo');
+		console.log(url+' '+titulo);
+		$('.abre2').parent().removeClass('active');
+		$(this).parent().addClass('active');
+		$('#crm_titulo').html(titulo);
+		$('#contenido').load(url);
+    });
+	//editar
+	$('.misdatos').click(function(e){
+		e.preventDefault();
+		var id=$(this).data('id');
+		$.post( "inc/carga_usuario.php",{ id:id }, function( data ) {	        
+			if (data.success){
+				$('#u_id_user').val(id);
+				$('#u_nombre').val(data.usu.APELLYNOMBRE);
+				$('#u_correo').val(data.usu.mail);
+				$('#u_celular').val(data.usu.celular);
+				$('#u_pass1').val(data.usu.CLAVE);
+				$('#u_telefono').val(data.usu.TELEFONO);
+				$('#u_pass2').val(data.usu.CLAVE);
+				$('#u_passold').val(data.usu.CLAVE);
+				$('#modal-misdatos').modal({
+				    backdrop: 'static',
+				    keyboard: false 
+				});
+				}
+			else{
+				alert('Error '+data.error);
+				}
+		},'json');
+			
+	});	
+	//nuevo usuario
+	$('#form-misdatos').submit(function(e){
+		e.preventDefault();
+		var pass1=$('#pass1').val();
+		var pass2=$('#pass2').val();
+		if (pass1===pass2){
+			var data = new FormData(this);
+			$.ajax({
+				type: 'POST',
+				url: $(this).attr('action'),
+				data: data,
+				contentType: false,
+				dataType: "json",
+				cache: false,
+				processData: false,
+				success: function(data){
+					if (data.success){
+						alert('Datos Actualizados');
+						$('#modal-misdatos').modal('hide');					
+						$('body').removeClass('modal-open');
+						$('.modal-backdrop').remove();	
+						}
+					else{
+						alert('Error '.data.error);
+						}
+				    
+				    }          
+			});
+		}
+		else{
+			$('#mensaje').html('Las Claves no Coinciden, Intente de nuevo');
+	    	$('#mensaje').focus();
+	        $('#mensaje').delay(3000).fadeOut("slow");
+			}	
+    });
+	
+	//
+	$(":file").filestyle();
+	//
+	$('[data-toggle="tooltip"]').tooltip()
+});
+
+</script>
+<style>
+html{
+    font-family: 'Magra', sans-serif;
+}
+body{
+	font-size:14px;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.imagen{
+    display: block;
+    margin: 0 auto;
+    width:100px;
+    height:100px;
+    background-color: grey;
+}
+.margen{
+	
+	padding: 20px;
+	
+}
+
+.tab-content{
+	padding-top: 5px;
+}
+#wait{
+	display: none;
+	text-align: center;
+	padding:20px;
+	margin:auto;
+	width:100px;
+	text-align:center;
+	margin:auto auto;
+}
+.loading {
+  position: fixed;
+  z-index: 9999;
+  height: 2em;
+  text-align: center;
+  width: 400px;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background-color: rgba(255,255,255,0.7);
+}
+
+#wait i{
+	margin:10px auto;
+}
+.subnav{
+	margin-bottom: 10px !important;
+	border-top: 1px solid #999;
+	padding:2px 16px !important;
+}
+.navbar{
+    padding: 8px 16px;
+}
+#titulo{
+	color: #0b4984;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#grantitulo{
+	color: #0b4984;
+	font-size: bolder;
+}
+
+.revision{
+	color: #FFFF00;
+}
+.publica{
+	color: green;
+}
+.filtros input{
+	display: inline-block;
+	width:140px;
+}
+/* centro tarjeta */
+#centro .card{
+    margin: 8px 8px;
+    display: inline-flex;
+    font-size:12px;
+}
+/**/
+#tablesorter{
+    width:100% !important;
+}
+.table-sm td, .table-sm th {
+    padding: .2rem !important;
+}
+.table td, .table th {
+    vertical-align: middle !important;
+    }
+#detalle-sub{
+max-height: 400px;
+    overflow: scroll;
+}
+@media print {
+   	.noprint{
+   	display: none;
+   	}
+   	#tablesorter_length{
+	display:none;
+	}
+	#tablesorter_filter{
+		display:none;
+	}
+	#tablesorter_paginate{
+		display:none;
+	}
+	#tablesorter_info{
+		display:none;
+	}
+	table.dataTable thead .sorting:after{
+		display:none;
+	}
+	table.dataTable thead .sorting:after {
+	    opacity: 0;
+	    content: "";
+	}
+	table.dataTable thead .sorting_asc:after {
+	    content: "";
+	}
+	table.dataTable thead .sorting_desc:after {
+	    content: "";
+	}
+}
+
+</style>
+
+</head>
+
+<body>
+<header class="bg-dark navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar noprint mb-2">
+			<span class="h1 navbar-brand mb-0 mr-0 mr-md-2">IMPS Rosario</span>
+			<div class="navbar-nav-scroll">
+    			<ul class="navbar-nav bd-navbar-nav flex-row  mr-auto">
+                  	<?php if ($_SESSION['imps']['usuarios']=='1'){ ?>
+			        <li class="nav-item"><a href="#" class=" nav-link abre" title="Gestion de Beneficiarios" data-titulo="Beneficiarios" data-url="inc/lista_usuarios.php" data-toggle="tooltip" data-placement="right">Beneficiarios</a></li>
+			        <?php } ?>
+			        <?php if ($_SESSION['imps']['empleados']=='1'){ ?>
+			        <li class="nav-item"><a href="#" class=" nav-link abre" title="Gestion de Empleados" data-titulo="Empleados" data-url="inc/lista_empleados.php" data-toggle="tooltip" data-placement="right">Empleados</a></li>
+			        <?php } ?>
+			        <?php if ($_SESSION['imps']['recibos']=='1'){ ?>
+			        <li class="nav-item dropdown">
+			        	<a href="#" class="nav-link dropdown-toggle" id="droprecibos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recibos<span class="caret"></span></a>
+			        	<div class="dropdown-menu"  aria-labelledby="droprecibos">
+			        		<a href="#" class="abre dropdown-item" title="Carga de Recibos de Beneficiarios" data-titulo="Recibos" data-url="inc/recibos_beneficiarios.php" data-toggle="tooltip" data-placement="up">Recibos Beneficiarios</a>
+			        		<a href="#" class="abre dropdown-item" title="Carga de Recibos de Empleados" data-titulo="Recibos" data-url="inc/recibos_empleados.php" data-toggle="tooltip" data-placement="up">Recibos Empleados</a>
+						</div>
+			        </li>
+			        
+			        <?php } ?>
+			        <?php if ($_SESSION['imps']['novedades']=='1'){ ?>
+			        <li class="nav-item"><a href="#" class="abre nav-link" title="Novedades del sitio" data-titulo="Novedades" data-url="inc/lista_novedades.php" data-toggle="tooltip" data-placement="right">Novedades</a></li>
+			        <?php } ?>
+			        <?php if ($_SESSION['imps']['licitaciones']=='1'){ ?>
+			        <li class="nav-item"><a href="#" class="nav-link abre" title="Lista de Licitaciones" data-titulo="Licitaciones" data-url="inc/lista_licitaciones.php" data-toggle="tooltip" data-placement="right" >Licitaciones</a></li>
+			        <?php } ?>
+			        <?php if ($_SESSION['imps']['legislacion']=='1'){ ?>
+			        <li class="nav-item"><a href="#" class="nav-link abre" title="Lista de Archivos Legislacion" data-titulo="Legislacion" data-url="inc/lista_legislacion.php" data-toggle="tooltip" data-placement="right" >Legislacion</a></li>
+			        <?php } ?>
+			        
+			        <?php if ($_SESSION['imps']['fechas']=='1'){ ?>
+			        <li class="nav-item"><a href="#" class="nav-link abre" title="Fecha de Cobro" data-titulo="Fecha de cobro" data-url="inc/lista_fechas.php" data-toggle="tooltip" data-placement="right" >Fechas</a></li>
+			        <?php } ?>
+			        <li class="nav-item dropdown">
+			        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cogs" ></i><span class="caret"></span></a>
+			        	<div class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
+			        		<?php if ($_SESSION['imps']['admin']=='1'){ ?>
+			        		<a href="#" class="abre dropdown-item" title="Lista de roles permisos" data-titulo="Roles" data-url="inc/lista_roles.php" data-toggle="tooltip" data-placement="right">Roles</a>
+			        		<a href="#" class="abre dropdown-item" title="Lista de usuarios sin passwd" data-titulo="Roles" data-url="inc/lista_passwd.php" data-toggle="tooltip" data-placement="right">Generar Passwd</a>
+			        		<a href="#" class="dropdown-item" id="cargaCsv1" title="Update MUNIXPER con csv"  data-toggle="tooltip" data-placement="right">Update Munixper</a>
+			        		<?php }?>
+						    <div class="dropdown-divider"></div>
+						    <a href="#" class="misdatos dropdown-item" data-id="<?php echo $_SESSION['imps']['IDPERSONA'];?>" >Mis Datos</a>
+						    <a href="inc/salir.php" class="dropdown-item">Salir</a>
+						</div>
+			        </li>
+			      </ul>  
+				</div>
+				<span id="usuario" class="navbar-text ml-md-auto">Usuario : <?php echo $_SESSION['imps']['APELLYNOMBRE']; ?></span>
+		</header>
+		<div id="centro" class="container-fluid">
+		</div>
+	<!-- ingreso -->
+    <div class="modal fade" id="modalCsv1" tabindex="-1" role="dialog" aria-labelledby="modal-titulo-ingreso">
+    	<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+    			<form action="inc/cargar_csv2.php" method="post" id="formCsv1" enctype="multipart/form-data" >
+    	      <div class="modal-header">
+    	        <h5 class="modal-title" id="modal-titulo-ingreso">Nuevo Update</h5>
+    	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    	      </div>
+    	      <div class="modal-body">
+    			
+                <div class="row form-group">	
+                	  
+                    <div class="input-group col-12 ml-auto ">
+                        <span class="input-group-addon">Archivo </span>
+                        <input class="form-control" type="file" name="archivo" id="archivo" accept=".csv" />
+                        
+                    </div>            	
+    			</div>
+    			
+    		  </div>
+    		  <div class="modal-footer">
+    		  	<button type="submit" class="btn btn-primary" id="cambiar-pago">Cargar</button>
+    		   	<button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+    		  </div>
+    		  </form>
+    	    </div>
+    	</div>
+    </div>
+    <div class="modal fade" id="modalCsv2" tabindex="-1" role="dialog" aria-labelledby="modal-titulo-ingreso">
+    	<div class="modal-dialog modal-lg" role="document">
+    		<div class="modal-content">
+    			<form action="inc/cargar_csv.php" method="post" id="getcsv2" enctype="multipart/form-data" >
+    	      <div class="modal-header">
+    	        <h5 class="modal-title" id="modal-titulo-ingreso2">Nuevo Ingreso</h5>
+    	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    	      </div>
+    	      <div class="modal-body">
+    			
+                <div class="row form-group">	
+                	  
+                    <div class="input-group col-7 ml-auto ">
+                        <span class="input-group-addon">Archivo </span>
+                        <input class="form-control" type="file" name="archivo" id="archivo2" accept=".csv" />
+                        
+                    </div>            	
+    			</div>
+    			<div class="row form-group">	
+                	
+    			</div>
+    			
+    		  </div>
+    		  <div class="modal-footer">
+    		  	<button type="submit" class="btn btn-primary">Cargar</button>
+    		   	<button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+    		  </div>
+    		  </form>
+    	    </div>
+    	</div>
+    </div>
+    <!-- Modal CSV -->
+	<div class="modal fade" id="modal-misdatos" tabindex="-1" role="dialog" aria-labelledby="modal-titulo">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <form action="inc/guardar_misdatos.php" class="form-horizontal" enctype="multipart/form-data" role="form" method="post" id="form-misdatos" >
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="modal-titulo">Editar Mis Datos</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+	        <input type="hidden" name="id" id="u_id_user" value="<?php echo $_SESSION['crm']['id'];?>">
+	        <input type="hidden" name="activo" value="<?php echo $_SESSION['crm']['activo'];?>">
+	      </div>
+	      <div class="modal-body">
+	      	<div class="form-group row">
+	      		<div class="input-group col-12">
+    				<div class="input-group-prepend">
+                    	<span class="input-group-text">Apellido y Nombre</span>
+                    </div>	
+        			<input class="form-control" type="text" name="nombre" id="u_nombre" required />
+        		</div>
+	      	</div>
+	      	<div class="form-group row">
+	      		<div class="input-group col-4">
+    				<div class="input-group-prepend">
+                    	<span class="input-group-text">Correo</span>
+                    </div>	
+        			<input class="form-control" type="text" name="correo" id="u_correo"  />
+        		</div>
+        		<div class="input-group col-4">
+    				<div class="input-group-prepend">
+                    	<span class="input-group-text">Telefono</span>
+                    </div>	
+        			<input class="form-control" type="tel" name="telefono" id="u_telefono" />
+        		</div>
+        		<div class="input-group col-4">
+    				<div class="input-group-prepend">
+                    	<span class="input-group-text">Celular</span>
+                    </div>	
+        			<input class="form-control" type="tel" name="celular" id="u_celular" />
+        		</div>
+	      	</div>
+	      	<div class="form-group row">
+	      		<div class="input-group col-6">
+    				<div class="input-group-prepend">
+                    	<span class="input-group-text">Password</span>
+                    </div>	
+        			<input class="form-control pass" type="password" name="pass" id="u_pass1" required >
+        			<div class="input-group-append">
+            			<button type="button" class="btn mostrar"><i class="fas fa-eye ver" ></i></button>
+            		</div>
+        		</div>
+        		<div class="input-group col-6">
+    				<div class="input-group-prepend">
+                    	<span class="input-group-text">Repita Password</span>
+                    </div>	
+        			<input class="form-control pass" type="password" name="pass" id="u_pass2" required >
+        		</div>
+	      	</div>
+			
+			<input type="hidden" name="passold" id="u_passold">
+			<output id="mensaje"></output>
+		  </div>
+		  <div class="modal-footer">
+		   	<input name="guardar" type="submit" class="btn btn-primary" value="Guardar" />
+		    <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cerrar</button>
+		  </div>
+	      </form>
+	    </div>
+	  </div>
+	</div>
+	<div id="wait" class="loading">
+		<i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+		<span class="sr-only">Loading...</span>
+	</div>
+	
+</body>
+
+	<!-- bootstrap -->
+	<script src="js/popper.min.js" ></script>
+	<script src="js/bootstrap.min.js" ></script>
+	<!-- font awesome -->
+	<script src="js/all.min.js"></script>
+	<!-- datatables -->
+	
+	<script src="js/datatables.min.js"></script>
+	
+	<!-- bootstrap select -->
+	<script src="js/bootstrap-select.js"></script>
+	<!-- bootstrap file -->
+	<script type="text/javascript" src="js/bootstrap-filestyle.min.js"> </script>
+	<!-- imprimir -->
+	<script type="text/javascript" src="js/printThis.js"> </script>
+	<!-- Exportar -->
+	<script src="js/FileSaver.js"></script>
+    <script src="js/Blob.js"></script>
+    <script src="js/xlsx.core.min.js"></script>
+    <script src="js/tableexport.js"></script>
+    <!-- Print PDF -->
+    <script src="js/jspdf.min.js"></script>
+    <script src="js/jspdf.plugin.autotable.js"></script>
+    <!-- Funciones Adicionales -->
+	<script type="text/javascript" src="js/funciones.js"> </script>
+	
+</html>

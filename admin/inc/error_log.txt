@@ -1,0 +1,60 @@
+[04-Oct-2017 05:23:38 Europe/Berlin] PHP Warning:  include(../../conexion/conectar.inc): failed to open stream: No such file or directory in C:\server\www\crm\inc\guardar_producto.php on line 9
+[04-Oct-2017 05:23:38 Europe/Berlin] PHP Warning:  include(): Failed opening '../../conexion/conectar.inc' for inclusion (include_path='.;C:\server\bin\php\pear') in C:\server\www\crm\inc\guardar_producto.php on line 9
+[04-Oct-2017 05:23:38 Europe/Berlin] PHP Warning:  include(../../inc/funciones.inc): failed to open stream: No such file or directory in C:\server\www\crm\inc\guardar_producto.php on line 11
+[04-Oct-2017 05:23:38 Europe/Berlin] PHP Warning:  include(): Failed opening '../../inc/funciones.inc' for inclusion (include_path='.;C:\server\bin\php\pear') in C:\server\www\crm\inc\guardar_producto.php on line 11
+[04-Oct-2017 05:23:38 Europe/Berlin] PHP Notice:  Undefined variable: conectar in C:\server\www\crm\inc\guardar_producto.php on line 37
+[04-Oct-2017 05:23:38 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\server\www\crm\inc\guardar_producto.php on line 37
+[04-Oct-2017 05:24:07 Europe/Berlin] PHP Warning:  include(../../conexion/conectar.inc): failed to open stream: No such file or directory in C:\server\www\crm\inc\guardar_producto.php on line 9
+[04-Oct-2017 05:24:07 Europe/Berlin] PHP Warning:  include(): Failed opening '../../conexion/conectar.inc' for inclusion (include_path='.;C:\server\bin\php\pear') in C:\server\www\crm\inc\guardar_producto.php on line 9
+[04-Oct-2017 05:24:07 Europe/Berlin] PHP Warning:  include(../../inc/funciones.inc): failed to open stream: No such file or directory in C:\server\www\crm\inc\guardar_producto.php on line 11
+[04-Oct-2017 05:24:07 Europe/Berlin] PHP Warning:  include(): Failed opening '../../inc/funciones.inc' for inclusion (include_path='.;C:\server\bin\php\pear') in C:\server\www\crm\inc\guardar_producto.php on line 11
+[04-Oct-2017 05:24:07 Europe/Berlin] PHP Notice:  Undefined variable: conectar in C:\server\www\crm\inc\guardar_producto.php on line 37
+[04-Oct-2017 05:24:07 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in C:\server\www\crm\inc\guardar_producto.php on line 37
+[04-Oct-2017 05:25:18 Europe/Berlin] PHP Notice:  Undefined variable: n in C:\server\www\crm\inc\guardar_producto.php on line 54
+[04-Oct-2017 05:25:18 Europe/Berlin] PHP Notice:  Undefined variable: nombreold in C:\server\www\crm\inc\guardar_producto.php on line 54
+[04-Oct-2017 05:25:18 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'Required extension GD is not loaded.' in C:\server\www\crm\inc\simpleimage.inc.php:543
+Stack trace:
+#0 C:\server\www\crm\inc\simpleimage.inc.php(47): abeautifulsite\SimpleImage->load('C:\\server\\temp\\...')
+#1 C:\server\www\crm\inc\guardar_producto.php(58): abeautifulsite\SimpleImage->__construct('C:\\server\\temp\\...')
+#2 {main}
+  thrown in C:\server\www\crm\inc\simpleimage.inc.php on line 543
+[04-Oct-2017 05:27:32 Europe/Berlin] PHP Notice:  Undefined variable: nombreold in C:\server\www\crm\inc\guardar_producto.php on line 54
+[04-Oct-2017 05:27:32 Europe/Berlin] PHP Warning:  file_put_contents(../../img/productos/22954producto.): failed to open stream: No such file or directory in C:\server\www\crm\inc\simpleimage.inc.php on line 879
+[04-Oct-2017 05:27:32 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to save image: ../../img/productos/22954producto.' in C:\server\www\crm\inc\simpleimage.inc.php:881
+Stack trace:
+#0 C:\server\www\crm\inc\guardar_producto.php(60): abeautifulsite\SimpleImage->save('../../img/produ...')
+#1 {main}
+  thrown in C:\server\www\crm\inc\simpleimage.inc.php on line 881
+[04-Oct-2017 05:28:27 Europe/Berlin] PHP Notice:  Undefined variable: query3 in C:\server\www\crm\inc\guardar_producto.php on line 65
+[04-Oct-2017 06:03:19 Europe/Berlin] PHP Notice:  Undefined index: subcat in C:\server\www\crm\inc\guardar_producto.php on line 18
+[25-Mar-2019 14:45:37 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\crmrenata\inc\guardar_slider.php on line 25
+[25-Mar-2019 14:45:39 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\crmrenata\inc\guardar_slider.php on line 25
+[25-Mar-2019 14:45:39 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\crmrenata\inc\guardar_slider.php on line 25
+[25-Mar-2019 14:46:19 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\crmrenata\inc\guardar_slider.php on line 25
+[25-Mar-2019 14:46:19 Europe/Berlin] PHP Warning:  file_put_contents(../img/slider/271428248slider.png): failed to open stream: No such file or directory in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php on line 879
+[25-Mar-2019 14:46:19 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Unable to save image: ../img/slider/271428248slider.png in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php:881
+Stack trace:
+#0 C:\xampp\htdocs\crmrenata\inc\guardar_slider.php(34): abeautifulsite\SimpleImage->save('../img/slider/2...')
+#1 {main}
+  thrown in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php on line 881
+[25-Mar-2019 14:46:54 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\crmrenata\inc\guardar_slider.php on line 25
+[25-Mar-2019 14:46:54 Europe/Berlin] PHP Warning:  file_put_contents(../img/slider/347684926slider.png): failed to open stream: No such file or directory in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php on line 879
+[25-Mar-2019 14:46:54 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Unable to save image: ../img/slider/347684926slider.png in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php:881
+Stack trace:
+#0 C:\xampp\htdocs\crmrenata\inc\guardar_slider.php(34): abeautifulsite\SimpleImage->save('../img/slider/3...')
+#1 {main}
+  thrown in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php on line 881
+[25-Mar-2019 14:47:47 Europe/Berlin] PHP Warning:  file_put_contents(../img/slider/1195227981slider.png): failed to open stream: No such file or directory in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php on line 879
+[25-Mar-2019 14:47:47 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Unable to save image: ../img/slider/1195227981slider.png in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php:881
+Stack trace:
+#0 C:\xampp\htdocs\crmrenata\inc\guardar_slider.php(32): abeautifulsite\SimpleImage->save('../img/slider/1...')
+#1 {main}
+  thrown in C:\xampp\htdocs\crmrenata\inc\simpleimage.inc.php on line 881
+[15-Sep-2019 15:03:02 America/Buenos_Aires] PHP Warning:  include(simpleimage.inc.php): failed to open stream: No such file or directory in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10
+[15-Sep-2019 15:03:02 America/Buenos_Aires] PHP Warning:  include(): Failed opening 'simpleimage.inc.php' for inclusion (include_path='.:/opt/php5-5/lib/php') in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10
+[15-Sep-2019 15:03:05 America/Buenos_Aires] PHP Warning:  include(simpleimage.inc.php): failed to open stream: No such file or directory in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10
+[15-Sep-2019 15:03:05 America/Buenos_Aires] PHP Warning:  include(): Failed opening 'simpleimage.inc.php' for inclusion (include_path='.:/opt/php5-5/lib/php') in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10
+[15-Sep-2019 15:04:22 America/Buenos_Aires] PHP Warning:  include(simpleimage.inc.php): failed to open stream: No such file or directory in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10
+[15-Sep-2019 15:04:22 America/Buenos_Aires] PHP Warning:  include(): Failed opening 'simpleimage.inc.php' for inclusion (include_path='.:/opt/php5-5/lib/php') in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10
+[16-Sep-2019 09:31:50 America/Buenos_Aires] PHP Warning:  include(simpleimage.inc.php): failed to open stream: No such file or directory in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10
+[16-Sep-2019 09:31:50 America/Buenos_Aires] PHP Warning:  include(): Failed opening 'simpleimage.inc.php' for inclusion (include_path='.:/opt/php5-5/lib/php') in /home/x102vm07/public_html/impsr/admin/inc/guardar_novedad.php on line 10

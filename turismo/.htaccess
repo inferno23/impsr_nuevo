@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^turismo.impsr.gob.ar [OR]
+RewriteCond %{HTTP_HOST} ^www.turismo.impsr.gob.ar$
+RewriteRule ^(.*)$ http://impsr.gob.ar/turismo [R=301,L]
