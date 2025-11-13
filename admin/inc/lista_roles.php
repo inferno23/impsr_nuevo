@@ -352,12 +352,12 @@ $(document).on('click', '.editar', function(e) {
         	    	<th>Fechas</th>
         	    	<th>Novedades</th>
         	    	<th>Licitaciones</th>
-        	    	<th>Legislacion</th>
+        	    	<th>Normativas</th>
         	    	<th>Notificacion</th>
         	    	<th>Turnos</th>
         	    	<th>Hotel</th>
         	    	<th>Cuil</th>
-        	    	<th>Nicasio</th>
+        	    	<th>Multiespacio</th>
         	    	<th>Admin</th>
         	    	<th>Acciones</th>
         		</tr>
@@ -481,7 +481,7 @@ $(document).on('click', '.editar', function(e) {
 					   <div class="col-md-4 mb-3">
 						   <div class="form-check">
 							   <input class="form-check-input" type="checkbox" name="legi" id="legi" value="1" checked>
-							   <label class="form-check-label" for="legi">Legislacion</label>
+							   <label class="form-check-label" for="legi">Normativas</label>
 						   </div>
 					   </div>
 					   <div class="col-md-4 mb-3">
@@ -493,7 +493,7 @@ $(document).on('click', '.editar', function(e) {
 					   <div class="col-md-4 mb-3">
 						   <div class="form-check">
 							   <input class="form-check-input" type="checkbox" name="nicasio" id="nicasio" value="1">
-							   <label class="form-check-label" for="nicasio">Nicasio</label>
+							   <label class="form-check-label" for="nicasio">Multiespacio</label>
 						   </div>
 					   </div>
 				   </div>

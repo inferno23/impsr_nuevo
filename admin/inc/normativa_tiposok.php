@@ -3,7 +3,7 @@ session_start();
 include '../conexion/conectar.inc';
 include '../inc/funciones.inc';
 global $conectar;
-    $query_rol = "SELECT a.* FROM normativa_tema  a ";
+    $query_rol = "SELECT a.* FROM normativa_tipo a  ";
 
 $roles = $conectar->query($query_rol);
 
@@ -36,7 +36,7 @@ $(function() {
 				if (data.success){
 					$('#modalLegislacion').modal('hide');
 					$("#formLegislacion")[0].reset();
-					$('#centro').load('inc/normativa_temas.php');
+					$('#centro').load('inc/normativa_tiposok.php');
 					$('body').removeClass('modal-open');
 					$('.modal-backdrop').remove();	
 					$('#id').val('');
@@ -53,7 +53,7 @@ $(function() {
 		e.preventDefault();
 		$('#formLegislacion')[0].reset();
 		$('#id').val('');
-		$('#modal-titulo').text('Nuevo Tema');
+		$('#modal-titulo').text('Nuevo tipo');
 		const modal = new bootstrap.Modal(document.getElementById('modalLegislacion'));
 		modal.show();
 	});
@@ -63,11 +63,11 @@ $(function() {
             e.preventDefault();
             var $btn = $(this);
             var id = $btn.data('id');
-            // Obtener el valor del tema directamente de la celda de la fila
-            var tema = $btn.closest('tr').find('td:eq(1)').text().trim();
+            // Obtener el valor del tipo directamente de la celda de la fila
+            var tipo = $btn.closest('tr').find('td:eq(1)').text().trim();
             $('#id').val(id);
-            $('#tema').val(tema);
-            $('#modal-titulo').text('Editar Tema');
+            $('#tipo').val(tipo);
+            $('#modal-titulo').text('Editar tipo');
             const modal = new bootstrap.Modal(document.getElementById('modalLegislacion'));
             modal.show();
         });
@@ -181,10 +181,10 @@ $(function() {
                 <div class="d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">
                         <i class="fas fa-list me-2"></i>
-                        Lista de Temas Normativas
+                        Lista de Tipos de Normativas
                     </h5>
                     <button type="button" class="btn btn-success btn-sm nuevo" title="Nueva Normativa">
-                        <i class="fas fa-plus me-1"></i>Nuevo tema Normativa
+                        <i class="fas fa-plus me-1"></i>Nuevo tipo de Normativa
                     </button>
                 </div>
             </div>
@@ -198,7 +198,7 @@ $(function() {
         	<thead class="thead-dark">
         	  	<tr>
         	  		<th>Id</th>
-        	    	<th>Tema</th>
+        	    	<th>Tipo</th>
         	    	<th class="noprint"></th>
         		</tr>
         	</thead>
@@ -208,10 +208,10 @@ $(function() {
         		?>
         		<tr>
         			<td><?php echo $row_hc["id"];?></td>
-        			<td><?php echo $row_hc["tema"];?></td>
+        			<td><?php echo $row_hc["tipo"];?></td>
         			<td class="noprint btn-group">
         				<button class="btn btn-sm btn-info editar" data-id="<?php echo $row_hc["id"];?>"><i class="fas fa-edit"></i></button>
-        				<button class="btn btn-sm btn-danger borrar" data-id="<?php echo $row_hc["id"];?>" data-db="normativa_tema" data-url="inc/normativa_temas.php" ><i class="fa fa-trash" aria-hidden="true"></i></button>
+        				<button class="btn btn-sm btn-danger borrar" data-id="<?php echo $row_hc["id"];?>" data-db="normativa_tipo" data-url="inc/normativa_tiposOK.php" ><i class="fa fa-trash" aria-hidden="true"></i></button>
         			</td>
         		</tr>
         	<?php } ?>
@@ -224,24 +224,21 @@ $(function() {
 	<div class="modal fade" id="modalLegislacion" tabindex="-1" role="dialog" aria-labelledby="modal-titulo">
 	  <div class="modal-dialog modal-lg" role="document">
 	    <div class="modal-content">
-	      <form action="inc/guardar_normativa_tema.php" class="form-horizontal" enctype="multipart/form-data" role="form" method="post" id="formLegislacion" >
+	      <form action="inc/guardar_normativa_tipo.php" class="form-horizontal" enctype="multipart/form-data" role="form" method="post" id="formLegislacion" >
 	      <div class="modal-header">
-    <h5 class="modal-title text-white" id="modal-titulo" style="color:#fff;">Nuevo Tema</h5>
+          <h5 class="modal-title text-white" id="modal-titulo" style="color:#fff;">Nuevo Tipo</h5>
             <button type="button" class="close ms-auto" data-dismiss="modal" aria-label="Close" style="color: #fff; background: #fff; border: none; font-size: 2.2rem; opacity: 1; position: relative; z-index: 2; width: 44px; height: 44px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.12); display: flex; align-items: center; justify-content: center; margin-left: 12px;">
                 <span aria-hidden="true" style="line-height: 1; color: #003366;">&times;</span>
             </button>
-	     
-
-
-	         <input type="hidden" name="id" id="id">
+	        <input type="hidden" name="id" id="id">
 	      </div>
 	      <div class="modal-body">
 	      	<div class="form-group row">
 	      		<div class="input-group col-12">
             		<div class="input-group-prepend">
-                    	<span class="input-group-text">Tema</span>
+                    	<span class="input-group-text">Tipo</span>
                     </div>	
-            		<input class="form-control" type="text" name="tema" id="tema"  />
+            		<input class="form-control" type="text" name="tipo" id="tipo"  />
             	</div>
 	      	</div>
 	      	

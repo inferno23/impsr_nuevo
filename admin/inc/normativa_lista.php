@@ -317,10 +317,13 @@ while ($rown=$normas->fetch_assoc()) { ?>
 	    <div class="modal-content">
 	      <form action="inc/guardar_normativa.php" class="form-horizontal" enctype="multipart/form-data" role="form" method="post" id="formLegislacion" >
 	      <div class="modal-header">
-	        <h5 class="modal-title" id="modal-titulo">Nueva Norma</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <input type="hidden" name="id" id="id">
-	      </div>
+	        
+            <h5 class="modal-title text-white" id="modal-titulo" style="color:#fff;">Nuevo Normativa</h5>
+            <button type="button" class="close ms-auto" data-dismiss="modal" aria-label="Close" style="color: #fff; background: #fff; border: none; font-size: 2.2rem; opacity: 1; position: relative; z-index: 2; width: 44px; height: 44px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.12); display: flex; align-items: center; justify-content: center; margin-left: 12px;">
+                <span aria-hidden="true" style="line-height: 1; color: #003366;">&times;</span>
+            </button>
+	        <input type="hidden" name="id" id="id">		
+		</div>
 	      <div class="modal-body">
 	      	<div class="form-group row">
 	      		<div class="input-group col-12">

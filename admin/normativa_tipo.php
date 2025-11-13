@@ -1,7 +1,7 @@
 <?php
 // normativa_tipo.php - Gestión de Tipos de Normativa
 
-include 'sidebar.php';
+//include 'sidebar.php';
 include 'conexion/conectar.inc';
 include 'inc/funciones.inc';
 global $conectar;
@@ -168,33 +168,33 @@ if ($conectar->error) {
 
 <body>
        <!-- Header -->
-    <nav class="navbar navbar navbar-dark" style="background: linear-gradient(135deg, #003366 0%, #0056b3 100%);">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <i class="fas fa-gavel me-2"></i>
+        <div class="container-fluid mt-1">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, #003366 0%, #0056b3 100%); margin-bottom:0.3rem;">
+        <div class="container" style="padding-top:0.25rem;padding-bottom:0.25rem;">
+            <a class="navbar-brand" href="#" style="font-size:1.1rem;padding-top:0.15rem;padding-bottom:0.15rem;">
+                <i class="fas fa-gavel me-2" style="font-size:1.1rem;"></i>
                 Gestión de Normativas
             </a>
-          
         </div>
     </nav>
-
+ </div>
     <!-- Main Content -->
     <div class="container-fluid mt-4">
-        <div class="card">
+        <div class="card" style="margin-top:0.3rem;width:80%;max-width:80%;">
             <div class="card-header">
                 <div class="d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">
                         <i class="fas fa-list me-2"></i>
                         Lista de Normativas
                     </h5>
-                    <button type="button" class="btn btn-light btn-sm nuevo" title="Nueva Normativa">
+                    <button type="button" class="btn btn-success btn-sm nuevo" title="Nueva Normativa">
                         <i class="fas fa-plus me-1"></i>Nueva Normativa
                     </button>
                 </div>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table table-striped table-hover" id="tablalicitaciones">
+                    <table class="table table-striped table-hover" id="tablalicitaciones" style="width:120%;max-width:120%;">
                         <thead>
                             <tr>
                                 <th>id</th>
@@ -277,7 +277,135 @@ if ($conectar->error) {
     <script src="js/datatables.min.js"></script>
 
     <script>
+$(function() {
+    // EDICIÓN de tipo de normativa
+    $(document).on('click', '.editar', function(e) {
+        e.preventDefault();
+        var $btn = $(this);
+        var id = $btn.data('id');
+        var tipo = $btn.data('tipo');
+        $('#id').val(id);
+        $('#tipo').val(tipo);
+        $('#modal-titulo').text('Editar Tipo de Normativa');
+        const modal = new bootstrap.Modal(document.getElementById('modalTipo'));
+        modal.show();
+    });
+
+    // ELIMINACIÓN de tipo de normativa
+    $(document).on('click', '.borrar', function(e) {
+        e.preventDefault();
+        var id = $(this).data('id');
+        var tipo = $(this).closest('tr').find('td:eq(1)').text();
+        if (confirm('¿Está seguro que desea eliminar el tipo "' + tipo + '"?')) {
+            $.ajax({
+                url: 'inc/eliminar_tipo.php',
+                type: 'POST',
+                data: { id: id },
+                dataType: 'json',
+                success: function(response) {
+                    if (response.success) {
+                        $("#aviso").removeClass("alert-danger").addClass("alert-success").text('Tipo eliminado exitosamente.').show();
+                        setTimeout(function() { location.reload(); }, 1200);
+                    } else {
+                        $("#aviso").removeClass("alert-success").addClass("alert-danger").text('Error al eliminar: ' + response.error).show();
+                    }
+                },
+                error: function() {
+                    $("#aviso").removeClass("alert-success").addClass("alert-danger").text('Error de conexión al eliminar').show();
+                }
+            });
+        }
+    });
+
+    $('.nuevo').click(function(e){
+		e.preventDefault();
+		$('#formTipo')[0].reset();
+		$('#id').val('');
+		$('#modal-titulo').text('Nuevo Tipo de Normativa');
+
+		const modal = new bootstrap.Modal(document.getElementById('modalTipo'));
+		modal.show();
+	});
+// Evento cuando se presiona el botón Guardar
+	$("#formTipo").submit(function (event) {
+		event.preventDefault(); // Evita el envío tradicional del formulario
+		var formData = new FormData(this);
+		$(".btn-submit").prop("disabled", true);
+		$.ajax({
+			type: "POST",
+			url: "inc/guardar_normativa_tipo.php",
+			data: formData,
+			contentType: false,
+			processData: false,
+			dataType: "json",
+            success: function (response) {
+                $("#aviso").removeClass("alert-success alert-danger").hide();
+                if (response.success && response.id && response.tipo) {
+                    $("#aviso").text("Tipo de normativa registrado correctamente.").addClass("alert-success").show();
+                    $("#formTipo")[0].reset();
+                    var modal = bootstrap.Modal.getInstance(document.getElementById('modalTipo'));
+                    if(modal) modal.hide();
+                    // Agregar la nueva fila a la tabla sin recargar
+                    var newRow = `<tr>
+                        <td>${response.id}</td>
+                        <td>${$('<div>').text(response.tipo).html()}</td>
+                        <td>
+                            <button type="button" class="btn btn-sm btn-info editar" data-id="${response.id}" data-tipo="${$('<div>').text(response.tipo).html()}" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar: ${$('<div>').text(response.tipo).html()}" aria-label="Editar tipo">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button type="button" class="btn btn-sm btn-danger borrar" data-id="${response.id}" data-tipo="${$('<div>').text(response.tipo).html()}" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar: ${$('<div>').text(response.tipo).html()}" aria-label="Eliminar tipo">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>`;
+                    $('#tablalicitaciones tbody').prepend(newRow);
+                    // Re-inicializar tooltips para los nuevos botones
+                    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+                    tooltipTriggerList.map(function (tooltipTriggerEl) {
+                        return new bootstrap.Tooltip(tooltipTriggerEl, { trigger: 'hover focus' });
+                    });
+                } else if (response.success) {
+                    $("#aviso").text("Tipo de normativa registrado correctamente, pero no se pudo mostrar en la tabla.").addClass("alert-success").show();
+                } else {
+                    $("#aviso").text("Error al registrar el tipo de normativa: " + response.error).addClass("alert-danger").show();
+                }
+            },
+			error: function (jqXHR, textStatus, errorThrown) {
+				var errorMsg = "Ocurrió un error al registrar el tipo de normativa.";
+				if (jqXHR.responseText) {
+					try {
+						var resp = JSON.parse(jqXHR.responseText);
+						if (resp.error) {
+							errorMsg = "Error: " + resp.error;
+						} else {
+							errorMsg = jqXHR.responseText;
+						}
+					} catch (e) {
+						errorMsg = jqXHR.responseText;
+					}
+				}
+				$("#aviso").text(errorMsg).addClass("alert-danger").show();
+			},
+			complete: function () {
+				$(".btn-submit").prop("disabled", false);
+			}
+		});
+	});
+
+
+
+});
     $(document).ready(function() {
+        // Si se abre la vista por AJAX (por ejemplo, desde un nav-link con data-url), re-inicializar el modal y eventos
+        $(document).on('click', '.abre.nav-link[data-url="normativa_tipo.php"]', function(e) {
+            e.preventDefault();
+            // Si el modal ya existe, lo reseteamos y mostramos
+            if ($('#modalTipo').length) {
+                resetForm();
+                const modal = new bootstrap.Modal(document.getElementById('modalTipo'));
+                modal.show();
+            }
+        });
         // Inicializar DataTable
         $('#tablalicitaciones').DataTable({
             responsive: true,
@@ -307,7 +435,7 @@ if ($conectar->error) {
         initializeTooltips();
 
         // NUEVO
-        $('.nuevo').on('click', function (e) {
+        $('.nuevo23').on('click', function (e) {
             e.preventDefault();
             resetForm();
             const modal = new bootstrap.Modal(document.getElementById('modalTipo'));
@@ -328,7 +456,7 @@ if ($conectar->error) {
         });
 
         // ELIMINAR
-        $(document).on('click', '.borrar', function(e) {
+        $(document).on('click', '.borrar233', function(e) {
             e.preventDefault();
             var id = $(this).data('id');
             var tipo = $(this).closest('tr').find('td:eq(1)').text();
@@ -341,9 +469,10 @@ if ($conectar->error) {
                     success: function(response) {
                         if (response.success) {
                             showToast('Tipo eliminado exitosamente', 'success');
-                            setTimeout(function() {
-                                location.reload();
-                            }, 1500);
+                            // Eliminar la fila de la tabla sin recargar
+                            var $btn = $(e.target).closest('button');
+                            var $tr = $btn.closest('tr');
+                            $tr.fadeOut(400, function() { $(this).remove(); });
                         } else {
                             showToast('Error al eliminar: ' + response.error, 'error');
                         }

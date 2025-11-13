@@ -52,14 +52,14 @@ if ($conectar->error) {
             margin-bottom: 2rem;
         }
         
-        .card {
+        .card23 {
             border: none;
             border-radius: 15px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             margin-bottom: 2rem;
         }
         
-        .card-header {
+        .card-header23 {
             background: linear-gradient(135deg, #003366 0%, #0056b3 100%);
             color: white;
             border-radius: 15px 15px 0 0 !important;
@@ -213,11 +213,11 @@ if ($conectar->error) {
         <div class="card">
             <div class="card-header">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-0">
+                    <h5 class="mb-0" style="color: #1e3a8a;">
                         <i class="fas fa-list me-2"></i>
                         Lista de Novedades
                     </h5>
-                    <button type="button" class="btn btn-light btn-sm nuevo" title="Nueva Novedad">
+                    <button type="button" class="btn btn-success btn-sm nuevo" title="Nueva Novedad">
                         <i class="fas fa-plus me-1"></i>Nueva Novedad
                     </button>
                 </div>

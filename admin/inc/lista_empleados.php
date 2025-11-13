@@ -46,6 +46,12 @@ $seccion=$conectar->query("SELECT * FROM turnos_secciones");
 <script>
 
 $(function() {
+	// Cerrar modalClave al hacer click en el botón .btn-close
+	$(document).on('click', '#modalClave .btn-close', function(e){
+		e.preventDefault();
+		var myModal = bootstrap.Modal.getOrCreateInstance(document.getElementById('modalClave'));
+		myModal.hide();
+	});
 	$('#tablausuarios').DataTable( {
 		responsive: true,
         "language": {
@@ -55,6 +61,35 @@ $(function() {
         "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
         
     });
+
+	// Cerrar modal-user al hacer click en el botón .btn-close
+	$(document).on('click', '#modal-user .btn-close', function(e){
+		e.preventDefault();
+		var myModal = bootstrap.Modal.getOrCreateInstance(document.getElementById('modal-user'));
+		myModal.hide();
+	});
+
+	// Abrir modal al hacer click en la fila (salvo si se clickea un botón/enlace dentro de la fila)
+	$(document).on('click', '#tablausuarios tbody tr', function(e){
+		// si el objetivo del click está dentro de un botón, enlace, input o un elemento interactivo, no interferimos
+		if ($(e.target).closest('button,a,input,label').length) return;
+
+		var $row = $(this);
+		var $editar = $row.find('.editar');
+		if ($editar.length) {
+			// disparar la acción de editar (esto cargará los datos vía AJAX y mostrará el modal)
+			$editar.trigger('click');
+		} else {
+			// abrir modal vacío para crear/asignar permisos
+			try{
+				$("#form-user")[0].reset();
+			} catch(e){}
+			// mantener compatibilidad: limpiar posibles campos con distintos ids
+			$('#id_user').val('');
+			$('#id2').val('');
+			$('#modal-user').modal({backdrop: 'static', keyboard: false});
+		}
+	});
 	
     //nuevo usuario
 	$('#form-user').submit(function(e){
@@ -138,25 +173,34 @@ $(function() {
 	});
     //editar
     $(document).on('click', '.editar', function(e) {
-	//$('.editar').click(function(e){
-		e.preventDefault();
-		var id=$(this).data('id');
-		$.post( "inc/carga_usuario.php",{ id:id }, function( json ) {
+	e.preventDefault();
+	var id=$(this).data('id');
+	$.ajax({
+		type: 'POST',
+		url: "inc/carga_usuario.php",
+		data: { id:id },
+		dataType: 'json',
+		success: function(json) {
+			console.log(json);
 			if (json.success){
-    			$('#id2').val(id);
-    			$('#nombre').val(json.usu.APELLYNOMBRE);
-    			$('#legajo').val(json.usu.LEGAJO);
-    			$('#legajohid').val(json.usu.LEGAJO);
-    			$('#rol'+json.usu.rol).prop( "selected", true );
-    			$('#sec'+json.usu.seccion).prop( "selected", true );
-    			$('#modal-user').modal({
-    			    backdrop: 'static',
-    				keyboard: false 
-    			});
+				$('#id2').val(id);
+				$('#nombre').val(json.usu.APELLYNOMBRE);
+				$('#legajo').val(json.usu.LEGAJO);
+				$('#legajohid').val(json.usu.LEGAJO);
+				$('#rol'+json.usu.rol).prop( "selected", true );
+				$('#sec'+json.usu.seccion).prop( "selected", true );
+				var myModal = new bootstrap.Modal(document.getElementById('modal-user'));
+                myModal.show();
 			}else{
-				alert('Error '+json.error);
-				}
-	    },'json');
+				let msg = 'Error: ' + (json.error ? json.error : 'No se pudo cargar el usuario.');
+				alert(msg);
+			}
+		},
+		error: function(xhr, status, error) {
+			let msg = 'Error AJAX: ' + (xhr.responseText ? xhr.responseText : error);
+			alert(msg);
+		}
+	});
 	});	
 	$(document).on('click', '.clave', function(e) {
 	//$('.clave').click(function(e){
@@ -273,6 +317,21 @@ $(function() {
     box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
   }
 
+  
+/* Círculo blanco para el botón cerrar del modal-user */
+.btn-cerrar-circulo {
+	background-color: #fff !important;
+	border-radius: 50% !important;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+	padding: 8px !important;
+	width: 44px !important;
+	height: 44px !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	border: none !important;
+}
+
 </style>
 <div class="row mb-2">
 	<div class="col-6">
@@ -284,15 +343,12 @@ $(function() {
     <table class="table table-striped table-hover " style="border:1px solid #CCCCCC" id="tablausuarios">
         	<thead class="thead-dark">
         	  	<tr>
-        	  		<?php if ($_SESSION['imps']['admin']=='1') { ?>
-            		<th>Rol</th>
-            		<?php }?>
+        	  		
         	  		<th>LEGAJO</th>
         			<th>ID</th>
         			<th>Nombre</th>
         	    	<th>CUIL</th>
         	    	<th>Telefono</th>
-        	    	<th>Clave</th>
         	    	<th class="noprint"></th>
         		</tr>
         	</thead>
@@ -302,20 +358,17 @@ $(function() {
         			
         		?>
         		<tr>
-        			<?php if ($_SESSION['imps']['admin']=='1') { ?>
-            		<td><?php echo $row_hc['rol'];?></td>
-            		<?php }?>
+        			
         			<td><?php echo $row_hc["LEGAJO"];?></td>
         			<td><?php echo $row_hc["IDPERSONA"];?></td>
         			<td><?php echo $row_hc["APELLYNOMBRE"];?></td>
         			<td><?php echo $row_hc["CUIL"];?></td>
         			<td><?php echo $row_hc['TELEFONO'].'-'.$row_hc['celular']; ?></td>
-        			<td><?php echo clave($row_hc['CLAVE'])?></td>
         			<td class="noprint btn-group">
         				<button class="btn btn-sm btn-info clave" data-id="<?php echo $row_hc["IDPERSONA"];?>"><i class="fas fa-key"></i></button>
-        			<?php if ($_SESSION['imps']['admin']=='1') { ?>
-        				<button class="btn btn-sm btn-info editar" data-id="<?php echo $row_hc["IDPERSONA"];?>"><i class="fas fa-user-tag"></i></button>
-        			<?php }?>
+        			
+        				<button class="btn btn-sm btn-success editar" data-id="<?php echo $row_hc["IDPERSONA"];?>"><i class="fas fa-user-tag"></i></button>
+        			
         			</td>
         		</tr>
         	<?php } ?>
@@ -332,40 +385,42 @@ $(function() {
 	      <div class="modal-header">
 	        
 	        <h5 class="modal-title" style="color:white" id="modal-titulo">Cambiar Clave</h5>
-	        <button type="button" style="margin-left:320px" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <input type="hidden" name="id" id="id1">
+                        <button type="button" class=" btn-close-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	       
+			
+			<input type="hidden" name="id" id="id1">
 	      </div>
 	      <div class="modal-body">
 	      	
-            <div class="form-group row"> 
-                	<div class="input-group col-12">
-                		<div class="input-group-prepend">
-                        	<span class="input-group-text">Nombre</span>
-                        </div>	
-                		<input class="form-control" disabled type="text" name="nombre" id="cnombre"  />
-                	</div>
-            </div>
+			<div class="form-group row mb-4"> 
+				 <div class="input-group col-12">
+					 <div class="input-group-prepend">
+						 <span class="input-group-text">Nombre</span>
+					 </div>  
+					 <input class="form-control" disabled type="text" name="nombre" id="cnombre"  />
+				 </div>
+			</div>
             
-	      	<div class="form-group row">
-            	<div class="input-group col-12 ">
-            		<div class="input-group-prepend">
-                    	<span class="input-group-text">Password</span>
-                    </div>	
-            		<input class="form-control pass" type="password" name="pass" id="pass1"  />
-            		<div class="input-group-append noshow">
-            			<button type="button" class="btn mostrar"><i class="fas fa-eye ver" ></i></button>
-            		</div>
-            	</div>
-            </div>
-            <div class="form-group row noshow">	
-            	<input type="hidden" name="passold" id="passold">
-            	<div class="input-group col-12 ">
-            		<div class="input-group-prepend">
-                    	<span class="input-group-text">Repita Password</span>
-                    </div>	
-            		<input class="form-control pass" type="password" name="pass" id="pass2"  />
-            	</div>
-            </div>			
+	   	<div class="form-group row mb-4">
+			<div class="input-group col-12 ">
+				<div class="input-group-prepend">
+				 	<span class="input-group-text">Password</span>
+				</div>  
+				<input class="form-control pass" type="password" name="pass" id="pass1"  />
+				<div class="input-group-append noshow">
+					<button type="button" class="btn mostrar"><i class="fas fa-eye ver" ></i></button>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row noshow mb-4">  
+			<input type="hidden" name="passold" id="passold">
+			<div class="input-group col-12 ">
+				<div class="input-group-prepend">
+				 	<span class="input-group-text">Repita Password</span>
+				</div>  
+				<input class="form-control pass" type="password" name="pass" id="pass2"  />
+			</div>
+		</div>    
 		  </div>
 		  <div class="modal-footer">
 		   	<input name="guardar" type="submit" class="btn btn-primary" value="Guardar" />
@@ -382,55 +437,57 @@ $(function() {
 	      <form action="inc/guardar_usuario.php" class="form-horizontal" enctype="multipart/form-data" role="form" method="post" id="form-user" >
 	      <div class="modal-header">
 	        
-	        <h5 class="modal-title" id="modal-titulo">Asignar Permisos</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <input type="hidden" name="id" id="id2">
+	        <h5 class="modal-title" id="modal-titulo" style="color: #ffffff;">Asignar Permisos</h5>
+		<button type="button" class=" btn-close-white btn-cerrar-circulo btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+			<input type="hidden" name="id" id="id2">
 	      </div>
 	      <div class="modal-body">
 	      	
-            <div class="form-group row"> 
-                	<div class="input-group col-12">
-                		<div class="input-group-prepend">
-                        	<span class="input-group-text">Nombre</span>
-                        </div>	
-                		<input class="form-control" disabled type="text" name="nombre" id="nombre"  />
-                	</div>
-            </div>
-            <div class="form-group row"> 
-                	<div class="input-group col-12">
-                		<div class="input-group-prepend">
-                        	<span class="input-group-text">Legajo</span>
-                        </div>	
-                		<input class="form-control" disabled type="text" name="legajo" id="legajo"  />
-                		<input type="hidden" name="legajo" id="legajohid"  />
-                	</div>
-            </div>
-            <div class="form-group row">    
-			    <div class="input-group col-12 ">
-            		<div class="input-group-prepend">
-                    	<span class="input-group-text">Rol</span>
-                    </div>	
-            		<select name="rol" class="form-control" id="rol">
-            			<option id="rol0" value="0">Ninguno</option>
-            			<?php while ($row=$rol->fetch_assoc()) { ?>
-            			<option id="rol<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"><?php echo $row['nombre']; ?></option>
-            			<?php } ?>
-            		</select>  
-            	</div> 
-	      	</div>
-	      	<div class="form-group row">    
-			    <div class="input-group col-12 ">
-            		<div class="input-group-prepend">
-                    	<span class="input-group-text">Seccion (turnos)</span>
-                    </div>	
-            		<select name="seccion" class="form-control" id="seccion">
-            			<option id="sec0" value="0" selected>Ninguno</option>
-            			<?php while ($row=$seccion->fetch_assoc()) { ?>
-            			<option id="sec<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"><?php echo $row['nombre']; ?></option>
-            			<?php } ?>
-            		</select>  
-            	</div> 
-	      	</div>
+			<div class="form-group row mb-4"> 
+				 <div class="input-group col-12">
+					 <div class="input-group-prepend">
+						 <span class="input-group-text">Nombre</span>
+					 </div>  
+					 <input class="form-control" disabled type="text" name="nombre" id="nombre"  />
+				 </div>
+			</div>
+			<div class="form-group row mb-4"> 
+				 <div class="input-group col-12">
+					 <div class="input-group-prepend">
+						 <span class="input-group-text">Legajo</span>
+					 </div>  
+					 <input class="form-control" disabled type="text" name="legajo" id="legajo"  />
+					 <input type="hidden" name="legajo" id="legajohid"  />
+				 </div>
+			</div>
+			<div class="form-group row mb-4">    
+				<div class="input-group col-12 ">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Rol</span>
+					</div>  
+					<select name="rol" class="form-control " id="rol" style="background-color:#f0fbf0;">
+						<option id="rol0" value="0">Ninguno</option>
+						<?php while ($row=$rol->fetch_assoc()) { ?>
+						<option id="rol<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"><?php echo $row['nombre']; ?></option>
+						<?php } ?>
+					</select>  
+				</div> 
+			</div>
+			<div class="form-group row mb-4">    
+				<div class="input-group col-12 ">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Seccion (turnos)</span>
+					</div>  
+					<select name="seccion" class="form-control" id="seccion">
+						<option id="sec0" value="0" selected>Ninguno</option>
+						<?php while ($row=$seccion->fetch_assoc()) { ?>
+						<option id="sec<?php echo $row['id']; ?>" value="<?php echo $row['id']; ?>"><?php echo $row['nombre']; ?></option>
+						<?php } ?>
+					</select>  
+				</div> 
+			</div>
 		  </div>
 		  <div class="modal-footer">
 		   	<input name="guardar" type="submit" class="btn btn-primary" value="Guardar" />

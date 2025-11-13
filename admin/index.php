@@ -7,6 +7,8 @@ if (!isset($_SESSION['imps']) || empty($_SESSION['imps'])) {
     exit;
 }
 ?>
+
+
 <!doctype html>
 <html lang="en">
   <!--begin::Head-->
@@ -140,21 +142,66 @@ $(function(){
 		e.preventDefault();
          $('#resultadosCuil').empty();
 
-        $('#modal-titulo').text('Buscar CUIL');
+        $('#modal-titulo').text('Buscar CUIL:');
 
         const modal = new bootstrap.Modal(document.getElementById('modalCuil'));
         modal.show();
     });
+    $(document).on('click', '#cargaMov', function(e) {
+     /// console.log('Buscar  cargaMov');
+		e.preventDefault();
+       //  $('#cargaMov').empty();
+
+
+
+        const modal = new bootstrap.Modal(document.getElementById('modalMov'));
+        modal.show();
+    });
     
+
+    $(document).on('click', '#cargaUpdate2533', function(e) {
+     /// console.log('Buscar  carga Update');
+		   e.preventDefault();
+      //   $('#cargaUpdate').empty();
+
+        const modal = new bootstrap.Modal(document.getElementById('modalUpdate'));
+        modal.show();
+    });
     
-    $('#buscaCuil2333').click(function(e){
-      alert('Buscando CUIL...');
-        e.preventDefault();
-        $('#resultadosCuil').empty();
-        $('#modalCuil').modal({
-            backdrop: 'static',
-            keyboard: false 
-        });
+
+     $(document).on('click', '#cargaLiq', function(e) {
+      console.log('Buscar  carga cargaLiq');
+		   e.preventDefault();
+       ///  $('#cargaLiq').empty();
+        const modal = new bootstrap.Modal(document.getElementById('modalLiq'));
+        modal.show();
+    });
+     $(document).on('click', '#cargaCsv3', function(e) {
+     // console.log('Buscar  carga cargaCsv3');
+		   e.preventDefault();
+       //  $('#cargaCsv3').empty();
+
+
+
+        const modal = new bootstrap.Modal(document.getElementById('modalCsv3'));
+        modal.show();
+    });
+     $(document).on('click', '#cargaCsv2', function(e) {
+      console.log('Buscar  carga cargaCsv2');
+		   e.preventDefault();
+         $('#cargaCsv2').empty();
+
+        const modal = new bootstrap.Modal(document.getElementById('modalCsv2'));
+        modal.show();
+    });
+    
+    $(document).on('click', '#cargaUpdate', function(e) {
+      //console.log('Buscar  carga Update');
+		   e.preventDefault();
+       //  $('#cargaUpdate').empty();
+
+        const modal = new bootstrap.Modal(document.getElementById('modalUpdate'));
+        modal.show();
     });
   // Mejorado: mostrar errores del JSON en pantalla
   $('#cuilBuscar').click(function(e){
@@ -190,30 +237,44 @@ $(function(){
       }
     });
   });
+    //////////////////////////////////////////
+
+     // Mejorado: mostrar errores del JSON en pantalla
+  $('#cuilBuscar').click(function(e){
+    e.preventDefault();
+    $('#resultadosCuil').empty();
+    $('#cuilError').remove();
+    var cuil = $('#cuil').val();
+    $.ajax({
+      type: 'POST',
+      url: 'inc/buscar_cuit.inc.php',
+      data: {cuil: cuil},
+      dataType: 'json',
+      success: function(resp) {
+        if (resp.error) {
+          var errorHtml = '<div id="cuilError" class="alert alert-danger mt-2">'+resp.error+'</div>';
+          $('#resultadosCuil').before(errorHtml);
+        } else {
+          $('#resultadosCuil').html(resp.html || resp.result || '');
+        }
+      },
+      error: function(xhr) {
+        var msg = 'Error de red o formato de respuesta.';
+        if (xhr.responseText) {
+          try {
+            var json = JSON.parse(xhr.responseText);
+            if (json.error) msg = json.error;
+          } catch(e) {
+            msg = xhr.responseText;
+          }
+        }
+        var errorHtml = '<div id="cuilError" class="alert alert-danger mt-2">'+msg+'</div>';
+        $('#resultadosCuil').before(errorHtml);
+      }
+    });
+  });
     //
-    $('#cargaUpdate').click(function(e){
-        e.preventDefault();
-        console.log('abre pedido');
-        $('#modalUpdate').modal({
-            backdrop: 'static',
-            keyboard: false 
-        });
-    });
-    $('#cargaLiq').click(function(e){
-        e.preventDefault();
-        console.log('abre pedido');
-        $('#modalLiq').modal({
-            backdrop: 'static',
-            keyboard: false 
-        });
-    });
-    $('#cargaCsv3').click(function(e){
-        e.preventDefault();
-        $('#modalCsv3').modal({
-            backdrop: 'static',
-            keyboard: false 
-        });
-    });
+   
     $('#getcsvdatos').submit(function(e){
         e.preventDefault();
         var data = new FormData(this);
@@ -366,7 +427,7 @@ $(function(){
     //
     $('#cargaMov').click(function(e){
         e.preventDefault();
-        console.log('abre pedido');
+        console.log('abre pedido carga mov');
         $('#modalMov').modal({
             backdrop: 'static',
             keyboard: false 
@@ -662,7 +723,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .sidebar-wrapper .nav-link.active,
-.sidebar-wrapper .nav-link:hover {
+.sidebar-wrapper .nav-link:hover2222 {
   background-color: #334155;
   color: #60a5fa;
 }
@@ -912,7 +973,7 @@ dialog[open] {
         <div class="container-fluid">
           <!--begin::Start Navbar Links-->
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item bg-white-link">
               <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button">
                 <i class="bi bi-list"></i>
               </a>
@@ -1223,6 +1284,21 @@ dialog[open] {
               </li>
              <?php } ?>
 
+              <?php if ($_SESSION['imps']['hotel']=='1'||$_SESSION['imps']['admin']=='1'){ ?>
+			      
+
+              <li class="nav-item">
+                <a href="login_viejo.php" class="nav-link" title="hotel" data-titulo="Hotel" data-url="" >
+                  <i class='nav-icon fas fa-hotel'></i>
+                  <p>
+                    Hotel
+                
+                  </p>
+                </a>
+                
+              </li>
+             <?php } ?>
+
   <?php if ($_SESSION['imps']['admin']=='1'){ ?>
 
               <li class="nav-item">
@@ -1237,19 +1313,19 @@ dialog[open] {
                   
 
                    <li class=" dropdown-item">
-                    <a href="normativa_tipo.php" class="nav-link" title="Gestion Tipos" data-titulo="Lista de Tipos" data-url="" >
+                    <a href="#" class="nav-link abre" title="Gestion Tipos" data-titulo="Lista de Tipos" data-url="inc/normativa_tiposok.php" >
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Tipos</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                   <a href="#" class="abre nav-link" title="Gestion Temas" data-titulo="Agenda de Temas" data-url="inc/normativa_temas.php">
+                   <a href="#" class="nav-link abre" title="Gestion Temas" data-titulo="Agenda de Temas" data-url="inc/normativa_temas.php">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Temas</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                   <a href="#" class="abre nav-link" title="Gestion Normativas" data-titulo="Lista de Normativas" data-url="inc/normativa_lista.php">
+                   <a href="#" class="nav-link abre" title="Gestion Normativas" data-titulo="Lista de Normativas" data-url="inc/normativa_lista.php">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Normativas</p>
                     </a>
@@ -1301,7 +1377,20 @@ dialog[open] {
                     
                       </li>
                      <?php } ?>
-                      	<?php if ($_SESSION['imps']['seccion']=='3'||$_SESSION['imps']['admin']=='1'){ ?>
+
+	                <?php if ($_SESSION['imps']['seccion']=='1'|| $_SESSION['imps']['admin']=='1'){ ?>
+                      <li class="nav-item">
+                        <a href="inc/calendario.php" class="nav-link">
+                          <i class="nav-icon bi bi-circle"></i>
+                          <p>Bloquear Fechas Creditos
+                           <i class="nav-arrow bi bi-chevron-right"></i></p>
+                        </a>
+                    
+                      </li>
+                    <?php } ?>
+
+
+                      	<?php if ($_SESSION['imps']['seccion']=='2'|| $_SESSION['imps']['seccion']=='3'||$_SESSION['imps']['admin']=='1'){ ?>
                       <li class="nav-item">
                         <a href="inc/calendario_mesa.php?id_seccion=3" class="nav-link">
                           <i class="nav-icon bi bi-circle"></i>
@@ -1311,7 +1400,7 @@ dialog[open] {
                     
                       </li>
                     <?php } ?>
-                    	<?php if ($_SESSION['imps']['seccion']=='2'||$_SESSION['imps']['admin']=='1'){ ?>
+                    	<?php if ($_SESSION['imps']['seccion']=='2'|| $_SESSION['imps']['seccion']=='3'||$_SESSION['imps']['admin']=='1'){ ?>
                       <li class="nav-item">
                         <a href="inc/calendario_jubilaciones.php?id_seccion=2" class="nav-link">
                           <i class="nav-icon bi bi-circle"></i>
@@ -1347,7 +1436,7 @@ dialog[open] {
                       <p>Agenda</p>
                     </a>
                   </li>
-                    <?php if ($_SESSION['imps']['admin']=='1'){ ?>
+                    <?php if ($_SESSION['imps']['seccion']=='1'|| $_SESSION['imps']['admin']=='1'){ ?>
                   <li class="nav-item">
                    <a href="#" class="abre nav-link" title="Excepcion" data-titulo="Pedidos Excepcion" data-url="inc/turnos_excepcion.php">
                       <i class="nav-icon bi bi-circle"></i>
@@ -1364,7 +1453,7 @@ dialog[open] {
                 <?php if ($_SESSION['imps']['admin']=='1'){ ?>
                   <li class="nav-item">
                     <a href="#" class="nav-link">
-                      <p>
+                     <i class="fa fa-cogs" aria-hidden="true"></i> <p>
                         Configuración
                            <i class="nav-arrow bi bi-chevron-right"></i>        
                       </p>
@@ -1380,26 +1469,37 @@ dialog[open] {
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="abre nav-link" title="Lista de usuarios sin passwd" data-titulo="Roles" data-url="inc/lista_passwd.php"> <i class="nav-icon bi bi-circle"></i>
-                          <p>Generar Password</p>
+                        <a href="#" class="abre nav-link" title="Lista de usuarios sin passwd" data-titulo="Roles" data-url="inc/lista_passwd.php"> 
+                         <i class="fa fa-key" aria-hidden="true"></i>
+
+                        <p>Generar Password</p>
                         </a>
                       </li>
                   
-                       <li class="nav-item">
-                        <a href="#" class="nav-link" id="cargaMov" title="Update Expedientes con csv" >
-                          <i class="nav-icon bi bi-circle"></i>
-                          <p>Actualizar Expedientes</p>
+                       
+                     
+
+
+                 <li class="nav-item">
+                        	<a href="#" class="nav-link" id="cargaMov" title="Subir liquidaciones en cvs ">
+                            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+
+                          <p>Actualizar Expedientes.</p>
                         </a>
                       </li>
+
+
                        <li class="nav-item">
-                        <a href="#" class="nav-link" id="cargaLiq" title="Update Liq con csv" >
-                          <i class="nav-icon bi bi-circle"></i>
+                        	<a href="#" class="nav-link" id="cargaLiq" title="Subir liquidaciones en cvs ">
+                             <i class="fa fa-barcode" aria-hidden="true"></i>
+                          
                           <p>Actualizar Liquidaciones</p>
                         </a>
                       </li>
+
                        <li class="nav-item">
-                        <a href="#" class="nav-link" >
-                          <i class="nav-icon bi bi-circle"></i>                          
+                        	<a href="#" class="nav-link" id="cargaUpdate" title="Subir actualizacion en cvs ">
+                      <i class="nav-icon fa-solid fa-file-csv"></i>                        
                           <p>Actualizar Inicio de Trámites</p>
                         </a>
                       </li>
@@ -1409,13 +1509,18 @@ dialog[open] {
 
                        <li class="nav-item">
                         	<a href="#" class="nav-link" id="buscaCuil" title="Buscar Cuil en COFEPRES">
-                             <i class="nav-icon bi bi-circle"></i>                          
+                          <i class="fa fa-search" aria-hidden="true"></i>
                           <p>Buscar Cuil</p>
                         </a>
                       </li>
                       <?php }?>
                  </ul>
+                 
                   </li>
+
+
+
+                
                    <li class="nav-item">
                    <a href="inc/salir.php" class="nav-link">
                       <i class="nav-icon bi bi-box-arrow-in-right"></i>
@@ -1452,11 +1557,177 @@ dialog[open] {
             </div>
             	<div id="centro" class="container">
 		</div>
-		 
-          
-       
-       
-       	
+
+
+
+		 	<!-- ingreso -->
+
+
+
+     <div class="modal fade" id="modalCsv2" tabindex="-1" role="dialog" aria-labelledby="modal-titulo-ingreso">
+    	<div class="modal-dialog modal-lg" role="document">
+    		<div class="modal-content">
+    			<form action="inc/cargar_csv.php" method="post" id="getcsv2" enctype="multipart/form-data" >
+    	      <div class="modal-header">
+    	        <h5 class="modal-title" id="modal-titulo-ingreso2">Nuevo Ingreso</h5>
+    	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    	      </div>
+    	      <div class="modal-body">
+    			
+                <div class="row form-group">	
+                	  
+                    <div class="input-group col-7 ml-auto ">
+                        <span class="input-group-addon">Archivo </span>
+                        <input class="form-control" type="file" name="archivo" id="archivo2" accept=".csv" />
+                        
+                    </div>            	
+    			</div>
+    			<div class="row form-group">	
+                	
+    			</div>
+    			
+    		  </div>
+    		  <div class="modal-footer">
+    		  	<button type="submit" class="btn btn-primary">Cargar</button>
+    		   	<button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+    		  </div>
+    		  </form>
+    	    </div>
+    	</div>
+    </div>
+    
+		 	<!-- ingreso -->
+
+          <div class="modal fade" id="modalCsv3" tabindex="-1" role="dialog" aria-labelledby="modal-titulo-ingreso">
+    	<div class="modal-dialog modal-lg" role="document">
+    		<div class="modal-content">
+    			<form action="inc/cargar_csv_datos.php" method="post" id="getcsvdatos" enctype="multipart/form-data" >
+    	      <div class="modal-header">
+    	        <h5 class="modal-title" id="modal-titulo-ingreso2">Actualizar Datos</h5>
+    	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    	      </div>
+    	      <div class="modal-body">
+    			
+                <div class="row form-group">	
+                	  
+                    <div class="input-group col-7 ml-auto ">
+                        <span class="input-group-addon">Archivo </span>
+                        <input class="form-control" type="file" name="archivo"  accept=".csv" />
+                        
+                    </div>            	
+    			</div>
+    			<div class="row form-group">	
+                	
+    			</div>
+    			
+    		  </div>
+    		  <div class="modal-footer">
+    		  	<button type="submit" class="btn btn-primary">Cargar</button>
+    		   	<button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+    		  </div>
+    		  </form>
+    	    </div>
+    	</div>
+    </div>
+       	<!-- ingreso -->
+
+       <!-- ingreso -->
+    <div class="modal fade" id="modalMov" tabindex="-1" role="dialog" aria-labelledby="modal-titulo-ingreso">
+    	<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+    			<form action="inc/cargar_csvmov.php" method="post" id="formMov" enctype="multipart/form-data" >
+    	      <div class="modal-header">
+    	        <h5 class="modal-title text-blues" id="modal-titulo" style="color:#003366;">Actualizar Expediente con cvs </h5>
+            <button type="button" class="close ms-auto" data-dismiss="modal" aria-label="Close" style="color: #fff; background: #fff; border: none; font-size: 2.2rem; opacity: 1; position: relative; z-index: 2; width: 44px; height: 44px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.12); display: flex; align-items: center; justify-content: center; margin-left: 12px;">
+                <span aria-hidden="true" style="line-height: 1; color: #003366;">&times;</span>
+            </button>    	      
+          </div>
+    	      <div class="modal-body">
+    			
+                <div class="row form-group">	
+                	  
+                    <div class="input-group col-12 ml-auto ">
+                        <span class="input-group-addon">Archivo </span>
+                        <input class="form-control" type="file" name="archivo"  accept=".csv" />
+                        
+                    </div>            	
+    			</div>
+    			
+    		  </div>
+    		  <div class="modal-footer">
+    		  	<button type="submit" class="btn btn-primary" >Cargar</button>
+    		   	<button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+    		  </div>
+    		  </form>
+    	    </div>
+    	</div>
+    </div>
+    <!-- Liq -->
+    <div class="modal fade" id="modalLiq" tabindex="-1" role="dialog" aria-labelledby="modal-titulo-ingreso">
+    	<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+    			<form action="inc/cargar_liq.php" method="post" id="formLiq" enctype="multipart/form-data" >
+    	      <div class="modal-header">
+    	        <h5 class="modal-title text-blues" id="modal-titulo" style="color:#003366;">Actualizar Liquidación con cvs </h5>
+            <button type="button" class="close ms-auto" data-dismiss="modal" aria-label="Close" style="color: #fff; background: #fff; border: none; font-size: 2.2rem; opacity: 1; position: relative; z-index: 2; width: 44px; height: 44px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.12); display: flex; align-items: center; justify-content: center; margin-left: 12px;">
+                <span aria-hidden="true" style="line-height: 1; color: #003366;">&times;</span>
+            </button>
+
+          </div>
+    	      <div class="modal-body">
+    			
+                <div class="row form-group">	
+                	  
+                    <div class="input-group col-12 ml-auto ">
+                        <span class="input-group-addon">Archivo </span>
+                        <input class="form-control" type="file" name="archivo"  accept=".csv" />
+                        
+                    </div>            	
+    			</div>
+    			
+    		  </div>
+    		  <div class="modal-footer">
+    		  	<button type="submit" class="btn btn-primary" >Cargar</button>
+    		   	<button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+    		  </div>
+    		  </form>
+    	    </div>
+    	</div>
+    </div>
+    <!-- fin liq-->
+       	<!-- Liq -->
+    <div class="modal fade" id="modalUpdate" tabindex="-1" role="dialog">
+    	<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+    			<form action="inc/cargar_csv_modificacion.php" method="post" id="formUpdate" enctype="multipart/form-data" >
+    	      <div class="modal-header">
+
+            <h5 class="modal-title text-blues" id="modal-titulo" style="color:#003366;">Subir Actualizacion </h5>
+            <button type="button" class="close ms-auto" data-dismiss="modal" aria-label="Close" style="color: #fff; background: #fff; border: none; font-size: 2.2rem; opacity: 1; position: relative; z-index: 2; width: 44px; height: 44px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.12); display: flex; align-items: center; justify-content: center; margin-left: 12px;">
+                <span aria-hidden="true" style="line-height: 1; color: #003366;">&times;</span>
+            </button>
+
+            </div>
+    	      <div class="modal-body">
+    			
+                <div class="row form-group">	
+                	  
+                    <div class="input-group col-12 ml-auto ">
+                        <span class="input-group-addon">Archivo </span>
+                        <input class="form-control" type="file" name="archivo"  accept=".csv" />
+                        
+                    </div>            	
+    			</div>
+    			
+    		  </div>
+    		  <div class="modal-footer">
+    		  	<button type="submit" class="btn btn-primary" >Cargar</button>
+    		   	<button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+    		  </div>
+    		  </form>
+    	    </div>
+    	</div>
+    </div>
        
        	<div id="wait" class="load" >
 		         <div
@@ -1788,5 +2059,7 @@ dialog[open] {
     $(function(){ loadProfile(); });
   })();
 </script>
+
+
 </body>
 </html>

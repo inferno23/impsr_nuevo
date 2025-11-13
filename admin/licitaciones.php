@@ -76,14 +76,14 @@ $reparticiones = $conectar->query($query_reparticiones);
             margin-bottom: 2rem;
         }
         
-        .card {
+        .card23 {
             border: none;
             border-radius: 15px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             margin-bottom: 2rem;
         }
         
-        .card-header {
+        .card-header23 {
             background: linear-gradient(135deg, #003366 0%, #0056b3 100%);
             color: white;
             border-radius: 15px 15px 0 0 !important;
@@ -212,7 +212,7 @@ $reparticiones = $conectar->query($query_reparticiones);
         <div class="card">
             <div class="card-header">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="mb-0">
+                    <h5 class="mb-0" style="color: #1e3a8a;">
                         <i class="fas fa-list me-2"></i>
                         Lista de Licitaciones
                     </h5>

@@ -5,7 +5,7 @@ include '../inc/funciones.inc';
 global $conectar;
 
 // Verificación de la existencia de las claves en la sesión antes de usarlas
-$fecha= date('Y-m-d', strtotime('-8 months'));
+$fecha= date('Y-m-d', strtotime('-3 months'));
 if (isset($_SESSION['imps']['admin']) && $_SESSION['imps']['admin'] == '1') {
     $query_usu = "SELECT a.*, b.nombre AS seccion, c.etiqueta AS motivo 
                   FROM turnos a 

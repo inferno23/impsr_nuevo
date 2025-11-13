@@ -22,7 +22,7 @@ function utf8_converter($array)
 }
 echo '<div class="container">';
 $archivotmp = $_FILES['archivo']['tmp_name'];
-echo '<h2>Archivo Suibdo '.$_FILES['archivo']['name'].'</h2>';
+echo '<h2>Archivo Subido '.$_FILES['archivo']['name'].'</h2>';
 //cargamos el archivo
 $lineas = file($archivotmp);
 echo '<div class="row"><div class="col-12"><form action="inc/guardar_mov.php" id="formMov1" method="post">';

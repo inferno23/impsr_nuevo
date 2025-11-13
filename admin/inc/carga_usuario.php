@@ -4,6 +4,9 @@ include ("../conexion/conectar.inc");
 include 'funciones.inc';
 global $conectar;
 $id=$_POST['id'];
+ if(empty($id)){
+    $id=$_GET['id'];
+ }  
 $query = $conectar->query("SELECT a.*,b.id_rol rol,b.seccion,c.NROJUBILADO FROM personas a LEFT JOIN permisos b ON a.LEGAJO=b.legajo LEFT JOIN municxper c ON a.IDPERSONA=c.IDPERSONA WHERE a.IDPERSONA='$id' ");
 $respuesta = new stdClass;
 
