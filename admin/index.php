@@ -1222,7 +1222,7 @@ dialog[open] {
 
               <li class="nav-item">
                 <a href="#" class=" nav-link abre" title="Gestion de Empleados" data-titulo="Empleados" data-url="inc/lista_empleados.php" >
-                  <i class="nav-icon bi bi-clipboard-fill"></i>
+                  <i class="nav-icon fas fa-user-tie"></i>
                   <p>
                     Empleados
                   </p>
@@ -1288,7 +1288,7 @@ dialog[open] {
 			      
 
               <li class="nav-item">
-                <a href="login_viejo.php" class="nav-link" title="hotel" data-titulo="Hotel" data-url="" >
+                <a href="https://pagodelosarroyos.impsr.gob.ar/index.php?c=inicio&a=login" class="nav-link" title="hotel" data-titulo="Hotel" data-url="" >
                   <i class='nav-icon fas fa-hotel'></i>
                   <p>
                     Hotel

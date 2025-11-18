@@ -199,13 +199,12 @@ if ($conectar->error) {
 <body>
    
  <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, #003366 0%, #0056b3 100%);">
+    <nav class="navbar navbar-dark" style="background: linear-gradient(135deg, #003366 0%, #0056b3 100%); width: 70%; margin-left: 0; margin-right: auto; border-radius: 12px;">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <i class="fas fa-gavel me-2"></i>
+                <i class="bi bi-pencil-square me-2"></i>
                 Gestión de Novedades
             </a>
-          
         </div>
     </nav>
     <!-- Main Content -->

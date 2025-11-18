@@ -83,20 +83,19 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
   </style>
 </head>
 <body>
-  <h2 style="text-align:center;">Bloqueo de dias en Mesa de Entrada</h2>
+  <h2 style="text-align:center;">Bloqueo de días en Mesa de Entrada</h2>
 
-  <a href="../index.php" class="boton-regreso"> <- Volver al Menú Principal</a>
+  <a href="../index.php" class="boton-regreso"> ← Volver al Menú Principal</a>
 
    <div class="info">
     <p>Haz clic en un día para bloquearlo.</p>
-        <p>Haz clic en un día bloqueado para regresarlo a un dia normal.</p>
+        <p>Haz clic en un día bloqueado para regresarlo a un día normal.</p>
 
     <div class="legend">
       <span class="legend-feriado"></span>
       <span class="legend-textFeriado">Feriado </span>
       <span class="legend-chip"></span>
       <span class="legend-text">Mesa de Entrada </span>
-      <span class="legend-renovacionPasivo"></span>
       
     
     </div>
@@ -105,14 +104,13 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
   <div id="<?php echo $calendarId; ?>"></div>
   <div class="info">
     <p>Haz clic en un día para bloquearlo.</p>
-        <p>Haz clic en un día bloqueado para regresarlo a un dia normal.</p>
+        <p>Haz clic en un día bloqueado para regresarlo a un día normal.</p>
 
     <div class="legend">
       <span class="legend-feriado"></span>
       <span class="legend-textFeriado">Feriado </span>
       <span class="legend-chip"></span>
       <span class="legend-text">Mesa de entrada </span>
-      <span class="legend-renovacionPasivo"></span>
       
     </div>
   </div>
@@ -120,7 +118,7 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
   <!-- Modal para seleccionar opción antes de bloquear -->
   <div id="blockModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.4); align-items:center; justify-content:center; z-index:9999;">
     <div style="background:#fff; padding:18px; border-radius:10px; width:320px; box-shadow:0 8px 24px rgba(2,6,23,0.2);">
-      <h3 style="margin-top:0;color:#0b5ed7;">Seleccioná el tipo de bloqueo</h3>
+      <h3 style="margin-top:0;color:#0b5ed7;">Seleccione el tipo de bloqueo</h3>
       <div id="blockOptions" style="margin:8px 0;">
         <!-- opciones se renderizan por JS -->
       </div>
@@ -234,7 +232,7 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
             alert('Evento sin id, no se puede eliminar');
             return;
           }
-          if (!confirm('¿Desbloquear (volvera a ser un dia normal) este día?')) return;
+          if (!confirm('¿Desbloquear (volvera a ser un día normal) este día?')) return;
 
           const form = new URLSearchParams();
           form.append('action', 'delete');

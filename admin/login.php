@@ -74,6 +74,15 @@
     dialog#dialogRecupero button:hover {
         background: #155fa0;
     }
+    .shake {
+      animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+    }
+    @keyframes shake {
+      10%, 90% { transform: translateX(-2px); }
+      20%, 80% { transform: translateX(4px); }
+      30%, 50%, 70% { transform: translateX(-8px); }
+      40%, 60% { transform: translateX(8px); }
+    }
     </style>
     <script src="js/index.js"></script>
 </head>
@@ -84,7 +93,7 @@
 
             <div class="form">
                     <img src="../img/logo_impsr.png" alt="Logo IMPSR" style="display:block;margin:0 auto 18px auto;max-width:110px;max-height:110px;">
-
+                <p></p>
                 <h2>Ingreso al Sistema</h2>
                 <form class="" action="index.html" method="post" enctype="multipart/form-data">
                     <div class="inputBx">
@@ -123,6 +132,7 @@
 
                    
                     <p id="aviso" class="alert" style="display: none;"></p>
+                    <p></p>
                     <p class="extra-links"><a href="#" id="olvido"><img src="images/key.png" alt="" style="width:16px;vertical-align:middle;margin-right:4px;">¿Olvidó su clave?</a></p>
                 </form>
 
@@ -169,16 +179,42 @@ document.addEventListener('DOMContentLoaded', function () {
             var aviso = document.getElementById('aviso');
             if (result.success) {
                 aviso.style.display = 'block';
-                aviso.classList.remove('alert-warning');
+                aviso.classList.remove('alert-warning', 'alert-danger');
                 aviso.classList.add('alert-success');
                 aviso.innerHTML = 'Datos Aceptados, Bienvenido';
                 setTimeout(function(){ window.location = 'index.php'; }, 2000);
             } else {
                 aviso.style.display = 'block';
-                aviso.classList.remove('alert-success');
-                aviso.classList.add('alert-warning');
-                aviso.innerHTML = result.mensaje || 'Error';
-                setTimeout(function(){ aviso.style.transition = 'opacity 0.5s'; aviso.style.opacity = '0'; }, 3000);
+                aviso.classList.remove('alert-success', 'alert-warning');
+                aviso.classList.add('alert-danger');
+                aviso.style.fontSize = '1.3rem';
+                aviso.style.fontWeight = '700';
+                aviso.style.transition = 'opacity 0.5s, transform 0.5s';
+                aviso.style.opacity = '1';
+                aviso.style.transform = 'scale(1.08)';
+                aviso.innerHTML = '<div class="alert alert-danger"><strong>Usuario o clave incorrectos. Por favor, intente de nuevo.</strong></div>';
+                // Mejorar inputs: bordes rojos y más anchos por 7 segundos
+                var emailInput = document.getElementById('email');
+                var passInput = document.getElementById('password');
+                emailInput.style.border = '3px solid #d32f2f';
+                passInput.style.border = '3px solid #d32f2f';
+                emailInput.style.paddingLeft = '14px';
+                passInput.style.paddingLeft = '14px';
+                // Efecto vibración
+                emailInput.classList.add('shake');
+                passInput.classList.add('shake');
+                aviso.classList.add('shake');
+                setTimeout(function(){
+                    aviso.style.opacity = '0';
+                    aviso.style.transform = 'scale(0.95)';
+                    emailInput.style.border = '';
+                    passInput.style.border = '';
+                    emailInput.style.paddingLeft = '';
+                    passInput.style.paddingLeft = '';
+                    emailInput.classList.remove('shake');
+                    passInput.classList.remove('shake');
+                    aviso.classList.remove('shake');
+                }, 7000);
             }
         })
         .catch(function(err) {

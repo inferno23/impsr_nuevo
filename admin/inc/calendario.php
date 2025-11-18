@@ -15,7 +15,7 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calendario sin fines de semana</title>
+  <title>Calendario Creditos</title>
   <!-- FullCalendar CSS (CDN) -->
   <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
   <style>
@@ -83,21 +83,20 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
   </style>
 </head>
 <body>
-  <h2 style="text-align:center;">Bloqueo de dias </h2>
+  <h2 style="text-align:center;">Bloqueo de días </h2>
 
-  <a href="../index.php" class="boton-regreso"> <- Volver al Menú Principal</a>
+  <a href="../index.php" class="boton-regreso"> ← Volver al Menú Principal</a>
 
    <div class="info">
     <p>Haz clic en un día para bloquearlo.</p>
-        <p>Haz clic en un día bloqueado para regresarlo a un dia normal.</p>
-
+        <p>Haz clic en un día bloqueado para regresarlo a un día normal.</p>
     <div class="legend">
       <span class="legend-feriado"></span>
       <span class="legend-textFeriado">Feriado </span>
       <span class="legend-chip"></span>
-      <span class="legend-text">Renovacion Activo </span>
+      <span class="legend-text">Renovación Activo </span>
       <span class="legend-renovacionPasivo"></span>
-      <span class="legend-textrenovacionPasivo">Renovacion Pasivo </span>
+      <span class="legend-textrenovacionPasivo">Renovación Pasivo </span>
       <span class="legend-solicitudActivo "></span>
       <span class="legend-textsolicitudActivo">Solicitud Activo </span>
       <span class="legend-solicitudPasivo"></span>
@@ -108,15 +107,15 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
   <div id="<?php echo $calendarId; ?>"></div>
   <div class="info">
     <p>Haz clic en un día para bloquearlo.</p>
-        <p>Haz clic en un día bloqueado para regresarlo a un dia normal.</p>
+        <p>Haz clic en un día bloqueado para regresarlo a un día normal.</p>
 
     <div class="legend">
       <span class="legend-feriado"></span>
       <span class="legend-textFeriado">Feriado </span>
       <span class="legend-chip"></span>
-      <span class="legend-text">Renovacion Activo </span>
+      <span class="legend-text">Renovación Activo </span>
       <span class="legend-renovacionPasivo"></span>
-      <span class="legend-textrenovacionPasivo">Renovacion Pasivo </span>
+      <span class="legend-textrenovacionPasivo">Renovación Pasivo </span>
       <span class="legend-solicitudActivo "></span>
       <span class="legend-textsolicitudActivo">Solicitud Activo </span>
       <span class="legend-solicitudPasivo"></span>
@@ -127,7 +126,7 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
   <!-- Modal para seleccionar opción antes de bloquear -->
   <div id="blockModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.4); align-items:center; justify-content:center; z-index:9999;">
     <div style="background:#fff; padding:18px; border-radius:10px; width:320px; box-shadow:0 8px 24px rgba(2,6,23,0.2);">
-      <h3 style="margin-top:0;color:#0b5ed7;">Seleccioná el tipo de bloqueo</h3>
+      <h3 style="margin-top:0;color:#0b5ed7;">Seleccione el tipo de bloqueo</h3>
       <div id="blockOptions" style="margin:8px 0;">
         <!-- opciones se renderizan por JS -->
       </div>
@@ -207,7 +206,7 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
 
           confirmar.onclick = function() {
             const sel = document.querySelector('input[name="blockOpt"]:checked');
-            if (!sel) { alert('Seleccioná una opción'); return; }
+            if (!sel) { alert('Seleccione una opción'); return; }
             const op = opciones[parseInt(sel.value, 10)];
 
             // Enviar via fetch a bloqueo_dia.php con la sub_seccion y condicion elegidas
@@ -243,7 +242,7 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
             alert('Evento sin id, no se puede eliminar');
             return;
           }
-          if (!confirm('¿Desbloquear (volvera a ser un dia normal) este día?')) return;
+          if (!confirm('¿Desbloquear (volverá a ser un día normal) este día?')) return;
 
           const form = new URLSearchParams();
           form.append('action', 'delete');

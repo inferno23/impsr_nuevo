@@ -239,7 +239,17 @@ $(function() {
   }
 
 </style>
-
+<!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, #003366 0%, #0056b3 100%);">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">
+                <i class="fas fa-users me-2"></i>
+                Gestión de Beneficiarios
+            </a>
+          
+        </div>
+    </nav>
+	<p></p>
 <div class="row mb-2">
 	<div class="col-6">
 		<h6>Lista de Jubilados</h6>
