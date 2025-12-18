@@ -135,6 +135,11 @@ hr {
 							<button type="submit" class="btn btn-block btn-outline-success">Guardar</button>
 						</div>
 						</form>
+	                     <hr>
+
+							<div class="row">
+					<div class="col-12" id="bkResultados"></div>
+				</div>
 					</div>
 				</div>
 	</div>
@@ -253,9 +258,7 @@ hr {
 	</div>
 		
 
-			<div class="row">
-				<div class="col-12" id="bkResultados"></div>
-			</div>
+			
 		</div>
 				<div class="row">
 				<div class="col-12" id="bkResultadosu"></div>
@@ -290,22 +293,53 @@ $(function() {
 	//
 	$('#recBuscar').click(function(e){
 		e.preventDefault();
-		var leg=$('#recLegajo').val();
-		$.post('inc/buscar_legajo.php',{leg:leg},function(data){
-			if (data.success){
-				var cod=data.id;
-				$.post('inc/buscar_recibos.php',{cod:cod},function(data){
-					if (data.success){
-						$('#recLista').html(data.listas);
-					}else{
+		var leg = $('#recLegajo').val();
+		$.post('inc/buscar_legajo.php', { leg: leg }, function(data) {
+			if (data.success) {
+				var cod = data.id;
+				console.log('Legajo encontrado, IDPersona: ' + cod);
+				$.post('inc/buscar_recibos.php', { cod: cod }, function(data) {
+					if (data.success) {
+						console.log('Recibos encontrados');
+						// Si data.listas es un array, mostrar como lista Bootstrap
+						if (Array.isArray(data.listas) && data.listas.length > 0) {
+							var html = '<ul class="list-group">';
+							data.listas.forEach(function(item) {
+								html += '<li class="list-group-item">' + item + '</li>';
+							});
+							html += '</ul>';
+							$('#recLista').html(html);
+						} else if (typeof data.listas === 'string' && data.listas.trim() !== '') {
+							// Si es string, mostrar directamente
+							$('#recLista').html(data.listas);
+						} else {
+							$('#recLista').html('<div class="alert alert-info">No hay recibos para mostrar.</div>');
+						}
+					} else {
+						$('#recLista').html('<div class="alert alert-danger">Error: ' + (data.error || 'No se encontraron recibos para el legajo ingresado.') + '</div>');
 						$('#recLegajo').focus();
 					}
-				},'json');
-			}else{
-				$('#upLegajo').focus();
+				}, 'json').fail(function(jqXHR, textStatus, errorThrown) {
+					$('#recLista').html('<div class="alert alert-danger">Error de conexión al buscar recibos: ' + errorThrown + '</div>');
+				});
+			} else {
+				$('#recLista').html('<div class="alert alert-danger">Error: ' + (data.error || 'Legajo no encontrado.') + '</div>');
+				$('#recLegajo').focus();
 			}
-		},'json');
-		
+		}, 'json').fail(function(jqXHR, textStatus, errorThrown) {
+			var responseText = jqXHR && jqXHR.responseText ? jqXHR.responseText.trim() : '';
+			var msg = '';
+			if (responseText.startsWith('<')) {
+				// Si la respuesta parece ser HTML, mostrarla en un alert para depuración
+				msg = '<div class="alert alert-warning">Respuesta inesperada del servidor:<br><pre style="white-space:pre-wrap;">' + $('<div>').text(responseText).html() + '</pre></div>';
+			} else if (responseText !== '') {
+				// Si la respuesta es texto (posible JSON mal formado), mostrarlo
+				msg = '<div class="alert alert-info">Respuesta recibida (JSON o texto):<br><pre style="white-space:pre-wrap;">' + $('<div>').text(responseText).html() + '</pre></div>';
+			} else {
+				msg = '<div class="alert alert-danger">Error de conexión al buscar legajo: ' + errorThrown + '</div>';
+			}
+			$('#recLista').html(msg);
+		});
 	});
 	//
 	$('#upForm').submit(function(e){
@@ -335,35 +369,60 @@ $(function() {
     				
     });
 	$('#upBulk').submit(function(e){
+		///alert('Subiendo recibos...');
 		e.preventDefault();
-		if (!confirm("Esta seguro de que desea subir los recibos?")) 
-			{	return false; }
-		else { 
-    		var data = new FormData(this);
-    		$.ajax({
-    			type: 'POST',
-    			url: $(this).attr('action'),
-    			data: data,
-    			contentType: false,
-    			cache: false,
-    			dataType: "json",
-    			processData: false,
-    			success: function(data){
-    				if (data.success){
-        			    alert('Recibos Guardado');
-        			    $.each(data.res, function(i, item) {
-        			    	$('#bkResultados').append('<p>'+item+'</p>');
-        			    });
-        			    
-        			    $('#upBulk')[0].reset();
-        			}else{
-        				alert('Error '+data.error);	
-        			}
-    			}          
-    		});
-    	}
-    				
-    });
+		if (!confirm("Esta seguro de que desea subir los recibos?")) {
+			return false;
+		} else {
+			var data = new FormData(this);
+			$.ajax({
+				type: 'POST',
+				url: $(this).attr('action'),
+				data: data,
+				contentType: false,
+				cache: false,
+				dataType: "json",
+				processData: false,
+				success: function(data){
+					//alert('Recibos procesados.');
+					$('#bkResultados').empty();
+					if (data.success){
+						//alert('Recibos Guardado');
+					$.each(data.res, function(i, item) {
+												$('#bkResultados').append('<p class="alert alert-success">'+item+'</p>');
+											});
+											
+											$('#upBulk')[0].reset();
+
+
+						if (Array.isArray(data.res) && data.res.length > 0) {
+							var html = '<ul class="list-group">';
+							data.res.forEach(function(item) {
+								html += '<li class="list-group-item">' + item + '</li>';
+							});
+							html += '</ul>';
+							$('#bkResultados').append(html);
+						} else {
+							$('#bkResultados').append('<div class="alert alert-info">Recibos subidos.</div>');
+						}
+						$('#upBulk')[0].reset();
+					} else {
+						$('#bkResultados').append('<div class="alert alert-danger">Error: ' + (data.error || 'Ocurrió un error al subir los recibos.') + '</div>');
+					}
+				},
+				error: function(jqXHR, textStatus, errorThrown) {
+					$('#bkResultados').empty();
+					var responseText = jqXHR && jqXHR.responseText ? jqXHR.responseText.trim() : '';
+					if (responseText.startsWith('<')) {
+						// Si la respuesta parece ser HTML, mostrarla en un alert para depuración
+						$('#bkResultados').append('<div class="alert alert-warning">Respuesta inesperada del servidor:<br><pre style="white-space:pre-wrap;">' + $('<div>').text(responseText).html() + '</pre></div>');
+					} else {
+						$('#bkResultados').append('<div class="alert alert-danger">Error de conexión al subir recibos: ' + errorThrown + '</div>');
+					}
+				}
+			});
+		}
+	});
 	$('#upBulku').submit(function(e){
 		e.preventDefault();
 		if (!confirm("Esta seguro de que desea subir los ultimos recibos?")) 

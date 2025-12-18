@@ -16,7 +16,9 @@ if ($data=$query->fetch_assoc())
     $respuesta->success=true;
 }else{
     $respuesta->success=false;
-    $respuesta->error=$conectar->error.' '.$query;
+    $respuesta->error='No existe el legajo ingresado.';
+
+    //$respuesta->error=$conectar->error.' '.$query;
 }
 echo json_encode($respuesta, JSON_FORCE_OBJECT);
 ?>

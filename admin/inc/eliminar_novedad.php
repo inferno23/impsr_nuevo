@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 if (!isset($_SESSION['imps'])){
     echo json_encode(['success' => false, 'error' => 'No autorizado']);
-    exit;
+    exit;  
 }
 
 include '../conexion/conectar.inc';

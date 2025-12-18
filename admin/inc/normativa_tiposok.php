@@ -3,7 +3,8 @@ session_start();
 include '../conexion/conectar.inc';
 include '../inc/funciones.inc';
 global $conectar;
-    $query_rol = "SELECT a.* FROM normativa_tipo a  ";
+   $query_rol = "SELECT a.id, a.tipo FROM normativa_tipo a ORDER BY a.id DESC LIMIT 10";
+
 
 $roles = $conectar->query($query_rol);
 
@@ -194,12 +195,13 @@ $(function() {
 </div>
 <div class="row">
 	<div class="col-12">
-    	<table class="table table-striped table-hover " style="border:1px solid #CCCCCC" id="tablaroles">
+      <table class="table table-striped table-hover " style="border:1px solid #CCCCCC; width:100%;" id="tablaroles">
         	<thead class="thead-dark">
         	  	<tr>
         	  		<th>Id</th>
         	    	<th>Tipo</th>
-        	    	<th class="noprint"></th>
+                	<th>Acciones</th>
+        	    	
         		</tr>
         	</thead>
         	<tbody>
@@ -209,7 +211,7 @@ $(function() {
         		<tr>
         			<td><?php echo $row_hc["id"];?></td>
         			<td><?php echo $row_hc["tipo"];?></td>
-        			<td class="noprint btn-group">
+        			<td >
         				<button class="btn btn-sm btn-info editar" data-id="<?php echo $row_hc["id"];?>"><i class="fas fa-edit"></i></button>
         				<button class="btn btn-sm btn-danger borrar" data-id="<?php echo $row_hc["id"];?>" data-db="normativa_tipo" data-url="inc/normativa_tiposOK.php" ><i class="fa fa-trash" aria-hidden="true"></i></button>
         			</td>

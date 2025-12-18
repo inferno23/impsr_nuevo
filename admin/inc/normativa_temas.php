@@ -3,7 +3,7 @@ session_start();
 include '../conexion/conectar.inc';
 include '../inc/funciones.inc';
 global $conectar;
-    $query_rol = "SELECT a.* FROM normativa_tema  a ";
+    $query_rol = "SELECT a.id, a.tema FROM normativa_tema a ORDER BY a.id DESC LIMIT 10";
 
 $roles = $conectar->query($query_rol);
 

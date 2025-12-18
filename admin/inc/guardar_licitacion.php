@@ -39,37 +39,47 @@ if ($resultado){
     if (empty($id)) {
         $id=$conectar->insert_id;
     }
-    /*
     $longitud = count($_FILES['archivos']['name']);
     $respuesta->longitud=$longitud;
-    //print_r($_FILES['archivos']);
+    $erroresArchivos = [];
     if ($longitud>0) {
-        $respuesta->pasos[]='inicia';
         for ($i = 0; $i < $longitud; $i++) {
-            $respuesta->pasos[]='empieza el primero'.$i;
-            if(is_uploaded_file($_FILES['archivos']['tmp_name'][$i]))
-            {
-                $respuesta->errorup[]='existe';
-                $dir='../../licitaciones/img/licitaciones';
-                $nameold = $_FILES['archivos']['name'][$i];
-                $namev=str_replace(' ', '_', $nameold);
-                $name = rand().'-'.$namev;
-                if(move_uploaded_file($_FILES['archivos']['tmp_name'][$i], "$dir/$name"))
-                {
-                    $archivo='img/licitaciones/'.$name;
-                    $query = "INSERT INTO `licitaciones_archivos`(`id_licitacion`, `archivo`) VALUES ('$id','$archivo')";
-                    $conectar->query($query);
-                }else{
-                    $respuesta->error2[]=$_FILES['archivos']['error'][$i];
-                }
-                
-                
+            $nameold = $_FILES['archivos']['name'][$i];
+            $filetype = $_FILES['archivos']['type'][$i];
+            $extension = strtolower(pathinfo($nameold, PATHINFO_EXTENSION));
+            if ($extension !== 'pdf' || $filetype !== 'application/pdf') {
+                $erroresArchivos[] = "El archivo '" . $nameold . "' no es un PDF válido.";
+                continue;
             }
-            $respuesta->error[]=$_FILES['archivos']['error'][$i];
+            if(is_uploaded_file($_FILES['archivos']['tmp_name'][$i])) {
+                $dir = '../../licitaciones/img/licitaciones';
+                if (!is_dir($dir)) {
+                    mkdir($dir, 0775, true);
+                }
+                $namev = str_replace(' ', '_', $nameold);
+                $name = rand().'-'.$namev;
+                $destino = "$dir/$name";
+                if(move_uploaded_file($_FILES['archivos']['tmp_name'][$i], $destino)) {
+                    $archivo = 'img/licitaciones/'.$name;
+                    $query = "INSERT INTO `licitaciones_archivos`(`id_licitacion`, `archivo`) VALUES ('$id','$archivo')";
+                    $resArchivo = $conectar->query($query);
+                    if (!$resArchivo) {
+                        $erroresArchivos[] = "Error al insertar archivo '$nameold' en la base de datos: " . $conectar->error;
+                    }
+                } else {
+                    $erroresArchivos[] = "Error al mover el archivo '$nameold'. Código: " . $_FILES['archivos']['error'][$i];
+                }
+            } else {
+                if ($_FILES['archivos']['error'][$i] != 0) {
+                    $erroresArchivos[] = "Error al subir el archivo '$nameold'. Código: " . $_FILES['archivos']['error'][$i];
+                }
+            }
         }
-    } 
-        
-    */
+        if (count($erroresArchivos) > 0) {
+            $respuesta->success = false;
+            $respuesta->error = implode("; ", $erroresArchivos);
+        }
+    }
 }else{
     $respuesta->success=false;
 }

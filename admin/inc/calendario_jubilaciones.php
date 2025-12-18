@@ -88,8 +88,8 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
   <a href="../index.php" class="boton-regreso"> ← Volver al Menú Principal</a>
 
    <div class="info">
-    <p>Haz clic en un día para bloquearlo.</p>
-        <p>Haz clic en un día bloqueado para regresarlo a un día normal.</p>
+    <p>Haz click en un día para bloquearlo.</p>
+        <p>Haz click en un día bloqueado para regresarlo a un día normal.</p>
     <div class="legend">
       <span class="legend-feriado"></span>
       <span class="legend-textFeriado">Feriado </span>
@@ -102,8 +102,8 @@ $condicion = isset($_GET['condicion']) ? preg_replace('/[^a-zA-Z0-9_\-]/', '', $
 
   <div id="<?php echo $calendarId; ?>"></div>
   <div class="info">
-    <p>Haz clic en un día para bloquearlo.</p>
-        <p>Haz clic en un día bloqueado para regresarlo a un día normal.</p>
+    <p>Haz click en un día para bloquearlo.</p>
+        <p>Haz click en un día bloqueado para regresarlo a un día normal.</p>
 
     <div class="legend">
       <span class="legend-feriado"></span>

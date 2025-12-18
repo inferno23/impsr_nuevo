@@ -163,7 +163,7 @@ try {
     $respuesta->message = empty($data['id']) ? 'Novedad creada exitosamente' : 'Novedad actualizada exitosamente';
     
 } catch (Exception $e) {
-    error_log("Error en guardar_novedad.php: " . $e->getMessage());
+   // error_log("Error en guardar_novedad.php: " . $e->getMessage());
     $respuesta->success = false;
     $respuesta->error = $e->getMessage();
 }
