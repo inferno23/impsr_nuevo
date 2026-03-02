@@ -56,7 +56,7 @@ if (($handle = fopen($csvFile, "r")) !== false) {
                 $valor_bd = trim((string)$registro_bd[$campo]);
                 $valor_csv = trim((string)$valor);
 
-                if ($valor_bd !== $valor_csv) {
+                if ($valor_bd !== $valor_csv && $campo !== 'clave') {
                     $updates[] = "$campo = ?";
                     $valores[] = $valor_csv;
                     echo "�� Diferencia en ID $id: $campo �� BD='$valor_bd' | CSV='$valor_csv'<br>";

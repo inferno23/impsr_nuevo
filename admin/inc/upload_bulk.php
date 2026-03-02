@@ -67,6 +67,20 @@ register_shutdown_function(function() {
             case 'Diciembre': return '12';
             case 'Primer Medio Aguinaldo': return '071';
             case 'Segundo Medio Aguinaldo': return '121';
+            case 'Enero.pdf': return '01';
+            case 'Febrero.pdf': return '02';
+            case 'Marzo.pdf': return '03';
+            case 'Abril.pdf': return '04';
+            case 'Mayo.pdf': return '05';
+            case 'Junio.pdf': return '06';
+            case 'Julio.pdf': return '07';
+            case 'Agosto.pdf': return '08';
+            case 'Septiembre.pdf': return '09';
+            case 'Octubre.pdf': return '10';
+            case 'Noviembre.pdf': return '11';
+            case 'Diciembre.pdf': return '12';
+            case 'Primer Medio Aguinaldo.pdf': return '071';
+            case 'Segundo Medio Aguinaldo.pdf': return '121';
         }
         return '00';
     }
@@ -90,12 +104,19 @@ register_shutdown_function(function() {
             $exts=explode(".", $val[4] ?? '');
             $ext=$exts[1] ?? '';
             $mes=mes($val[3] ?? '');
-            $nombre=addslashes(utf8_encode($nombre));
+            $nombre=addslashes(mb_convert_encoding($nombre, 'UTF-8'));
             
+
+            $respuesta33= "--- Procesando archivo: $valor, id=$id, nombre=$nombre, ano=$ano, mes=$mes, ext=$ext\n";
+
+error_log($val[3].$respuesta33);
+
+            //echo json_encode($respuesta33, JSON_FORCE_OBJECT);
+           // print_r($val);
             $arch=uniqid().($ext ? '.'.$ext : '');
             $archivo2=$dir.'/'.$arch;
             $archivo=$dir_f.'/'.$arch;
-            $archivo=addslashes(utf8_encode($archivo));
+            $archivo=addslashes(mb_convert_encoding($archivo, 'UTF-8'));
             
             $query="SELECT * FROM personas WHERE APELLYNOMBRE LIKE '$id' AND LEGAJO!='0'";
             $res=$conectar->query($query);

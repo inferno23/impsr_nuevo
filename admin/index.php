@@ -1119,13 +1119,13 @@ dialog[open] {
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" id="userMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 <img id="user_image" src="dist/assets/img/user2-160x160.jpg" class="user-image rounded-circle shadow" alt="User Image" width="34" height="34" />
-                <span id="user_name" class="d-none d-md-inline ms-2">Usuario</span>
+                <span id="user_name" class="d-none d-md-inline ms-2">Bienvenido</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end" aria-labelledby="userMenuLink">
                 <!--begin::User Image-->
                 <li class="user-header text-bg-primary text-center py-3">
                   <img id="user_image_large" src="dist/assets/img/user2-160x160.jpg" class="rounded-circle shadow mb-2" alt="User Image" style="width:80px;height:80px;" />
-                  <p><strong id="user_name_large">Usuario</strong></p>
+                  <p><strong id="user_name_large">Bienvenido</strong></p>
                 </li>
                 <!--end::User Image-->
                 <!-- NOTA: No mostrar email ni teléfono en el menú, se ven sólo desde el modal de perfil -->
@@ -1298,6 +1298,22 @@ dialog[open] {
                 
               </li>
              <?php } ?>
+
+             <?php if ($_SESSION['imps']['nicasio']=='1'||$_SESSION['imps']['admin']=='1'){ ?>
+			      
+
+            <li class="nav-item">
+              <a href="https://multiespaciotest.impsr.gob.ar/public/"  target="_blank" class="nav-link" title="Multiespacio" data-titulo="Multiespacio" data-url="" >
+              <i class="fa fa-building" aria-hidden="true" style="color:#caf9d4;"></i>
+
+                <p>
+                  Multiespacio
+              
+                </p>
+              </a>
+              
+            </li>
+           <?php } ?>
 
   <?php if ($_SESSION['imps']['admin']=='1'){ ?>
 
@@ -1482,7 +1498,7 @@ dialog[open] {
 
                  <li class="nav-item">
                         	<a href="#" class="nav-link" id="cargaMov" title="Subir liquidaciones en cvs ">
-                            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                          <i class="nav-icon fa-solid fa-file-csv" style="color:#caf9d4;"></i>
 
                           <p>Actualizar Expedientes.</p>
                         </a>
@@ -1491,7 +1507,8 @@ dialog[open] {
 
                        <li class="nav-item">
                         	<a href="#" class="nav-link" id="cargaLiq" title="Subir liquidaciones en cvs ">
-                             <i class="fa fa-barcode" aria-hidden="true"></i>
+                          <i class="nav-icon fa-solid fa-file-csv" style="color:#f9c9c9;"></i>
+
                           
                           <p>Actualizar Liquidaciones</p>
                         </a>
@@ -1503,6 +1520,31 @@ dialog[open] {
                           <p>Actualizar Inicio de Trámites</p>
                         </a>
                       </li>
+
+                      <li class="nav-item">
+                        	<a href="https://impar.gob.ar/admin/personas/base.php" target="_blank" class="nav-link" id="" title="Ejecutar Persona ">
+                          <i class="fa fa-cog" aria-hidden="true"></i>
+                       
+                          <p>Ejecutar Persona</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        	<a href="./../pasarcentro.php"  target="_blank" class="nav-link" id="" title="Ejecutar Persona ">
+                          <i class="fa fa-crosshairs" aria-hidden="true"></i>
+                       
+                          <p>Pasar Centro</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        	<a href="./../pasarsindicato.php" target="_blank" class="nav-link" id="" title="Ejecutar Persona ">
+                          <i class="fa fa-user-secret" aria-hidden="true"></i>
+                       
+                          <p>Pasar Sindicato</p>
+                        </a>
+                      </li>
+
                       <?php }?>
                       
 			        	    	<?php if ($_SESSION['imps']['cuil']=='1'){ ?>
@@ -1944,7 +1986,7 @@ dialog[open] {
 
     function setProfileUI(profile){
       var img = profile && profile.image_url ? profile.image_url : placeholder;
-      var name = (profile && profile.full_name) ? profile.full_name : 'Usuario';
+      var name = (profile && profile.full_name) ? profile.full_name : 'Bienvenido';
       var position = profile && profile.position ? profile.position : '';
       $('#user_image').attr('src', img);
       $('#user_image_large').attr('src', img);
